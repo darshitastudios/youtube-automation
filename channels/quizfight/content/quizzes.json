@@ -1,0 +1,227 @@
+[
+  {
+    "id": "hi-001", "category": "PAHELI",
+    "question": "ऐसी क्या चीज़ है जो जितना खींचो उतनी छोटी होती जाती है?",
+    "question_rom": "Aisi kya cheez hai jo jitna kheencho utni chhoti hoti jaati hai?",
+    "options": ["Rassi", "Cigarette", "Chaabi", "Samaan"],
+    "answer_index": 1,
+    "explanation": "सिगरेट जितनी जलती है उतनी छोटी होती जाती है।",
+    "explanation_rom": "Cigarette jitna jalta hai utna chhota hota jaata hai."
+  },
+  {
+    "id": "hi-002", "category": "BOLLYWOOD",
+    "question": "किस फिल्म में 'मोगेम्बो खुश हुआ' डायलॉग था?",
+    "question_rom": "Kis film me 'Mogambo khush hua' dialogue tha?",
+    "options": ["Sholay", "Mr. India", "Don", "Agneepath"],
+    "answer_index": 1,
+    "explanation": "अमरीश पुरी ने Mr. India में मोगेम्बो का रोल किया था।",
+    "explanation_rom": "Amrish Puri ne Mr. India me Mogambo ka role kiya tha."
+  },
+  {
+    "id": "hi-003", "category": "CRICKET",
+    "question": "सचिन तेंदुलकर ने कितने इंटरनेशनल शतक बनाए?",
+    "question_rom": "Sachin Tendulkar ne kitne international century banaye?",
+    "options": ["99", "100", "101", "98"],
+    "answer_index": 1,
+    "explanation": "सचिन ने ODI और Test मिलाकर 100 शतक बनाए — कोई और नहीं पहुंचा।",
+    "explanation_rom": "Sachin ne ODI + Test mila kar 100 centuries banaye — koi aur nahi pahuncha."
+  },
+  {
+    "id": "hi-004", "category": "PAHELI",
+    "question": "क्या है जो आपका है पर बाकी लोग ज़्यादा इस्तेमाल करते हैं?",
+    "question_rom": "Kya hai jo aapka hai par baaki log zyada use karte hain?",
+    "options": ["Paise", "Phone", "Naam", "Ghar"],
+    "answer_index": 2,
+    "explanation": "आपका नाम आपका है, पर दूसरे लोग ही ज़्यादा बोलते हैं।",
+    "explanation_rom": "Aapka naam aapka hai, par doosre log hi zyada bolte hain."
+  },
+  {
+    "id": "hi-005", "category": "GEOGRAPHY",
+    "question": "भारत का सबसे छोटा राज्य कौन सा है?",
+    "question_rom": "Bharat ka sabse chhota state kaun sa hai?",
+    "options": ["Sikkim", "Goa", "Tripura", "Mizoram"],
+    "answer_index": 1,
+    "explanation": "गोवा एरिया में सबसे छोटा राज्य है — करीब 3,702 km²।",
+    "explanation_rom": "Goa area me sabse chhota state hai — around 3,702 km²."
+  },
+  {
+    "id": "hi-006", "category": "HISTORY",
+    "question": "ताज महल किसने बनवाया था?",
+    "question_rom": "Taj Mahal kisne banwaya tha?",
+    "options": ["Akbar", "Shah Jahan", "Aurangzeb", "Humayun"],
+    "answer_index": 1,
+    "explanation": "शाहजहां ने अपनी बीवी मुमताज़ की याद में बनवाया था।",
+    "explanation_rom": "Shah Jahan ne apni biwi Mumtaz ki yaad me banwaya tha."
+  },
+  {
+    "id": "hi-007", "category": "PAHELI",
+    "question": "कौन सा कमरा है जिसमें दरवाज़ा खिड़की नहीं होती?",
+    "question_rom": "Kaun sa room hai jisme darwaza khidki nahi hoti?",
+    "options": ["Classroom", "Bathroom", "Mushroom", "Bedroom"],
+    "answer_index": 2,
+    "explanation": "मशरूम में दरवाज़ा-खिड़की नहीं होती — वो तो सब्जी है!",
+    "explanation_rom": "Mushroom me darwaza-khidki nahi hoti — wo to sabzi hai!"
+  },
+  {
+    "id": "hi-008", "category": "BOLLYWOOD",
+    "question": "'दिलवाले दुल्हनिया ले जाएंगे' में शाहरुख का नाम क्या था?",
+    "question_rom": "DDLJ me Shah Rukh ka naam kya tha?",
+    "options": ["Rahul", "Raj", "Prem", "Aman"],
+    "answer_index": 1,
+    "explanation": "DDLJ में उनका नाम राज मल्होत्रा था।",
+    "explanation_rom": "DDLJ me unka naam Raj Malhotra tha."
+  },
+  {
+    "id": "hi-009", "category": "CIVICS",
+    "question": "लोक सभा में कुल कितनी सीटें होती हैं?",
+    "question_rom": "Lok Sabha me total kitni seats hoti hain?",
+    "options": ["545", "543", "552", "250"],
+    "answer_index": 1,
+    "explanation": "लोक सभा में 543 निर्वाचित सदस्य होते हैं।",
+    "explanation_rom": "Lok Sabha me 543 elected members hote hain."
+  },
+  {
+    "id": "hi-010", "category": "CRICKET",
+    "question": "IPL में सबसे ज़्यादा ट्रोफी किस टीम ने जीती?",
+    "question_rom": "IPL me sabse zyada trophy kis team ne jeeti?",
+    "options": ["RCB", "CSK", "MI", "CSK & MI"],
+    "answer_index": 3,
+    "explanation": "CSK और MI दोनों के पास 5-5 ट्रोफी हैं।",
+    "explanation_rom": "CSK aur MI dono ke paas 5-5 trophies hain."
+  },
+  {
+    "id": "hi-011", "category": "PAHELI",
+    "question": "ऐसी कौन सी चीज़ है जो ऊपर जाती है पर नीचे नहीं आती?",
+    "question_rom": "Aisi kaun si cheez hai jo upar jaati hai par neeche nahi aati?",
+    "options": ["Balloon", "Umar", "Pani", "Rocket"],
+    "answer_index": 1,
+    "explanation": "उम्र सिर्फ बढ़ती है, घटती नहीं।",
+    "explanation_rom": "Umar sirf badhti hai, ghatti nahi."
+  },
+  {
+    "id": "hi-012", "category": "GEOGRAPHY",
+    "question": "दुनिया की सबसे लंबी नदी कौन सी मानी जाती है?",
+    "question_rom": "Duniya ki sabse lambi nadi kaun si maani jaati hai?",
+    "options": ["Ganga", "Amazon", "Nile", "Yamuna"],
+    "answer_index": 2,
+    "explanation": "नाइल नदी करीब 6,650 km है — Amazon भी बहुत करीब है।",
+    "explanation_rom": "Nile river around 6,650 km hai — Amazon bhi bahut close hai."
+  },
+  {
+    "id": "hi-013", "category": "BOLLYWOOD",
+    "question": "'शोले' में गब्बर का रोल किसने किया था?",
+    "question_rom": "Sholay me Gabbar ka role kisne kiya tha?",
+    "options": ["Amrish Puri", "Amjad Khan", "Danny", "Pran"],
+    "answer_index": 1,
+    "explanation": "अमजद खान का गब्बर सिंह बॉलीवुड का सबसे मशहूर विलेन है।",
+    "explanation_rom": "Amjad Khan ka Gabbar Singh Bollywood ka sabse famous villain hai."
+  },
+  {
+    "id": "hi-014", "category": "PAHELI",
+    "question": "क्या है जो सवाल का जवाब देता है पर खुद कुछ नहीं पूछता?",
+    "question_rom": "Kya hai jo sawaal ka jawaab deta hai par khud kuch nahi poochta?",
+    "options": ["Teacher", "Phone", "Shabdakosh (dictionary)", "TV"],
+    "answer_index": 2,
+    "explanation": "डिक्शनरी हर सवाल का जवाब रखती है पर खुद कुछ नहीं पूछती।",
+    "explanation_rom": "Dictionary har sawaal ka jawaab rakhti hai par khud kuch nahi poochti."
+  },
+  {
+    "id": "hi-015", "category": "CRICKET",
+    "question": "किस भारतीय को 'कैप्टन कूल' कहा जाता है?",
+    "question_rom": "Kis Indian ko 'Captain Cool' kaha jaata hai?",
+    "options": ["Virat Kohli", "Rohit Sharma", "MS Dhoni", "Kapil Dev"],
+    "answer_index": 2,
+    "explanation": "महेंद्र सिंह धोनी को उनके शांत स्वभाव से कैप्टन कूल कहते हैं।",
+    "explanation_rom": "MS Dhoni ko unke shaant nature se Captain Cool kehte hain."
+  },
+  {
+    "id": "hi-016", "category": "HISTORY",
+    "question": "भारत को आज़ादी कब मिली थी?",
+    "question_rom": "Bharat ko aazadi kab mili thi?",
+    "options": ["15 Aug 1947", "26 Jan 1950", "15 Aug 1946", "26 Jan 1947"],
+    "answer_index": 0,
+    "explanation": "15 अगस्त 1947 — और 26 जनवरी 1950 को गणतंत्र बना।",
+    "explanation_rom": "15 August 1947 — aur 26 January 1950 ko republic bana."
+  },
+  {
+    "id": "hi-017", "category": "PAHELI",
+    "question": "किस चीज़ के दांत होते हैं पर वो खा नहीं सकती?",
+    "question_rom": "Kis cheez ke daant hote hain par wo kha nahi sakti?",
+    "options": ["Magarmach", "Kaanghi (comb)", "Haathi", "Sher"],
+    "answer_index": 1,
+    "explanation": "कंघी के दांत होते हैं पर वो खाती नहीं।",
+    "explanation_rom": "Comb (kaanghi) ke daant hote hain par wo khati nahi."
+  },
+  {
+    "id": "hi-018", "category": "GEOGRAPHY",
+    "question": "भारत की राजधानी में कौन सी नदी बहती है?",
+    "question_rom": "Bharat ki rajdhani me kaun si nadi behti hai?",
+    "options": ["Ganga", "Yamuna", "Godavari", "Brahmaputra"],
+    "answer_index": 1,
+    "explanation": "दिल्ली से यमुना नदी बहती है।",
+    "explanation_rom": "Delhi se Yamuna nadi behti hai."
+  },
+  {
+    "id": "hi-019", "category": "BOLLYWOOD",
+    "question": "3 इडियट्स में 'रांचो' का असली नाम क्या था फिल्म में?",
+    "question_rom": "3 Idiots me 'Rancho' ka asli naam film me kya tha?",
+    "options": ["Ranchoddas Shyamaldas Chanchad", "Phunsukh Wangdu", "Rajeev Rastogi", "Farhan Qureshi"],
+    "answer_index": 1,
+    "explanation": "रांचो असल में फुनसुख वांगडू था — यही फिल्म का ट्विस्ट है।",
+    "explanation_rom": "Rancho asal me Phunsukh Wangdu tha — yehi film ka twist hai."
+  },
+  {
+    "id": "hi-020", "category": "PAHELI",
+    "question": "कौन सी चीज़ है जो सूखे में आती है, गीली होकर निकलती है?",
+    "question_rom": "Kaun si cheez hai jo sookhe me aati hai, geeli hokar nikalti hai?",
+    "options": ["Chai patti", "Kapda", "Kagaz", "Rui"],
+    "answer_index": 0,
+    "explanation": "चाय पत्ती सूखी डालते हैं और गीली निकालते हैं।",
+    "explanation_rom": "Chai patti sookhi daalte hain aur geeli nikaalte hain."
+  },
+  {
+    "id": "hi-021", "category": "CRICKET",
+    "question": "एक ओवर में कितनी गेंदें होती हैं?",
+    "question_rom": "Ek over me kitni balls hoti hain?",
+    "options": ["4", "6", "8", "10"],
+    "answer_index": 1,
+    "explanation": "एक ओवर में 6 लीगल डिलीवरी होती हैं।",
+    "explanation_rom": "Ek over me 6 legal deliveries hoti hain."
+  },
+  {
+    "id": "hi-022", "category": "HISTORY",
+    "question": "'भारत का लौह पुरुष' किसे कहा जाता है?",
+    "question_rom": "'Bharat ka lauh purush' (Iron Man) kise kaha jaata hai?",
+    "options": ["Nehru", "Sardar Patel", "Subhas Bose", "Bhagat Singh"],
+    "answer_index": 1,
+    "explanation": "सरदार वल्लभ भाई पटेल — जिन्होंने देश के रियासतें जोड़ीं।",
+    "explanation_rom": "Sardar Vallabhbhai Patel — jinhone desh ki riyasatein jodi."
+  },
+  {
+    "id": "hi-023", "category": "PAHELI",
+    "question": "क्या है जो सुनती है बिना कान के, बोलती है बिना मुंह के?",
+    "question_rom": "Kya hai jo sunti hai bina kaan ke, bolti hai bina muh ke?",
+    "options": ["Deewar", "Gunj (echo)", "Radio", "Hawa"],
+    "answer_index": 1,
+    "explanation": "गूंज सुनती और दोहराती है बिना कान-मुंह के।",
+    "explanation_rom": "Echo sunti aur dohrati hai bina kaan-muh ke."
+  },
+  {
+    "id": "hi-024", "category": "GEOGRAPHY",
+    "question": "दुनिया का सबसे बड़ा द्वीप कौन सा है?",
+    "question_rom": "Duniya ka sabse bada island kaun sa hai?",
+    "options": ["Australia", "Greenland", "Borneo", "Madagascar"],
+    "answer_index": 1,
+    "explanation": "ग्रीनलैंड सबसे बड़ा द्वीप है — Australia महाद्वीप माना जाता है।",
+    "explanation_rom": "Greenland sabse bada island hai — Australia continent mana jaata hai."
+  },
+  {
+    "id": "hi-025", "category": "BOLLYWOOD",
+    "question": "अमिताभ बच्चन को 'बिग बी' के अलावा किस नाम से जाना जाता है?",
+    "question_rom": "Amitabh Bachchan ko 'Big B' ke alawa kis naam se jaana jaata hai?",
+    "options": ["Shahenshah", "King", "Superstar", "Don"],
+    "answer_index": 0,
+    "explanation": "उन्हें बॉलीवुड का 'शहंशाह' कहा जाता है।",
+    "explanation_rom": "Unhe Bollywood ka 'Shahenshah' kaha jaata hai."
+  }
+]

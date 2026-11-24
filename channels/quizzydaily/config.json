@@ -1,0 +1,9 @@
+{
+  "name": "Quizzy Daily",
+  "language": "en",
+  "voice": "en-US-ChristopherNeural",
+  "quizzes": "content/quizzes.json",
+  "db": "automation.db",
+  "title_fmt": "{category} Quiz: Can You Solve This? #shorts",
+  "tags": ["quiz", "riddle", "trivia", "brain teaser", "shorts"]
+}
