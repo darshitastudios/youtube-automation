@@ -55,18 +55,20 @@ def make_background(palette, seed=0):
 
 
 def wrap_text(draw, text, fnt, max_w):
-    words = text.split()
-    lines, cur = [], ""
-    for w_ in words:
-        trial = (cur + " " + w_).strip()
-        if draw.textlength(trial, font=fnt) <= max_w:
-            cur = trial
-        else:
-            if cur:
-                lines.append(cur)
-            cur = w_
-    if cur:
-        lines.append(cur)
+    lines = []
+    for block in text.split("\n"):
+        words = block.split()
+        cur = ""
+        for w_ in words:
+            trial = (cur + " " + w_).strip()
+            if draw.textlength(trial, font=fnt) <= max_w:
+                cur = trial
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w_
+        if cur:
+            lines.append(cur)
     return lines
 
 

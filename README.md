@@ -8,10 +8,10 @@ with **$0/month** cost and zero manual steps.
 
 - **Channel**: https://www.youtube.com/@QuizzyDaily-i8l
 - **Actions (runs + Run-workflow button)**: https://github.com/darshitastudios/youtube-automation/actions
-- **Schedule config**: `.github/workflows/post_video.yml` (cron line)
+- **Schedule configs**: `.github/workflows/post_video_<channel>.yml` (cron line)
 - **Repo Secrets**: https://github.com/darshitastudios/youtube-automation/settings/secrets/actions
-- **Riddle bank**: `content/quizzes.json`
-- **State DB**: `automation.db` (committed, auto-updated)
+- **Riddle bank**: `channels/quizzydaily/content/quizzes.json`
+- **State DBs**: `channels/*/automation.db` (committed, auto-updated)
 - **Architecture diagram**: `ARCHITECTURE.md`
 - **Accounts inventory**: `ACCOUNTS-QUIZZY-DAILY.md`
 - **Privacy/terms site**: https://darshitastudios.github.io/youtube-automation/
@@ -40,7 +40,7 @@ GitHub Actions (2x/day)  →  daily_run.py  →  pick unused quiz
 
 ## Where state lives
 
-`automation.db` is the single source of truth for "which riddles were already
+Each channel has its own `automation.db` — the single source of truth for "which riddles were already
 posted". It is **tracked in git** — each Actions run commits the updated DB back
 to `main`. There is no DB on the Mac anymore; the old local copy and the macOS
 scheduler were removed (2026-11-24). Never run `daily_run.py` from two places
@@ -60,14 +60,30 @@ Run workflow**.
 
 ## Configuration
 
-- `content/quizzes.json` — the question bank (~164 items). Add riddles as JSON.
+- `channels/<name>/content/quizzes.json` — per-channel question bank. Add riddles as JSON.
 - Repo **Secrets** (Settings → Secrets → Actions): `YT_CLIENT_ID`,
   `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` (OAuth for darshitastudios@gmail.com).
 - Schedule: `cron` line in `.github/workflows/post_video.yml`
-  (currently `13 3,15 * * *` = twice daily, ~8:45 AM + 8:45 PM IST).
+  (quizzydaily: `13 3,15 * * *` = twice daily, ~8:45 AM + 8:45 PM IST).
 - Legal/OAuth pages: `index.html` served via GitHub Pages at
   https://darshitastudios.github.io/youtube-automation/ (required so the OAuth
   app stays published and the refresh token never expires).
+
+## Repo layout
+
+```
+common/            shared engine: slides, tts, music, upload, state
+  assets/fonts/
+channels/<name>/   one dir per YouTube channel
+  config.json      voice, language, title format, tags
+  content/quizzes.json
+  automation.db
+.github/workflows/post_video_<name>.yml
+out/  work/        generated videos (gitignored)
+```
+
+Add channel N+1 = new `channels/<name>/` dir + one workflow file + one
+`YT_REFRESH_TOKEN_<NAME>` secret.
 
 ## Git branching strategy
 

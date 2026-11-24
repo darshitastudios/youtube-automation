@@ -19,7 +19,7 @@ from moviepy.editor import (
 import audio_synth as syn
 import slides
 
-BASE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root
 OUT = os.path.join(BASE, "out")
 WORK = os.path.join(BASE, "work")
 CHANNEL_NAME = "Quizzy Daily"
@@ -31,8 +31,8 @@ os.makedirs(OUT, exist_ok=True)
 os.makedirs(WORK, exist_ok=True)
 
 
-async def tts(text, path):
-    await edge_tts.Communicate(text, VOICE, rate=RATE).save(path)
+async def tts(text, path, voice=None):
+    await edge_tts.Communicate(text, voice or VOICE, rate=RATE).save(path)
     return path
 
 
@@ -46,30 +46,45 @@ def options_speech(options):
     return "  ".join(parts[:-1]) + f",   or {parts[-1]}?"
 
 
-def generate(quiz, out_path=None, seed=None):
+def generate(quiz, cfg=None, out_path=None, seed=None):
+    cfg = cfg or {}
     seed = seed if seed is not None else random.randrange(10 ** 6)
     palette = random.Random(seed).choice(slides.PALETTES)
     tag = quiz["id"]
     work = os.path.join(WORK, tag)
     os.makedirs(work, exist_ok=True)
     out_path = out_path or os.path.join(OUT, f"{tag}.mp4")
+    if cfg.get("font_body"):
+        slides.F_BODY = cfg["font_body"]
 
-    hook_text = "ONLY 1% GET THIS RIGHT"
+    hook_text = cfg.get("hook_text", "ONLY 1% GET THIS RIGHT")
+    channel = cfg.get("channel_name", CHANNEL_NAME)
     letters = "ABCD"
+
+    # display (dual-script) vs speech strings
+    q_disp = dict(quiz)
+    if q_disp.get("question_rom"):
+        q_disp["question"] = q_disp["question"] + "\n" + q_disp["question_rom"]
+    if q_disp.get("explanation_rom"):
+        q_disp["explanation"] = q_disp["explanation"] + "\n" + q_disp["explanation_rom"]
+    speech_opts = quiz.get("options_speech", quiz["options"])
+
+    voice = cfg.get("voice", VOICE)
 
     # ---------- TTS ----------
     lines = {
-        "q": quiz["question"],
-        "o": options_speech(quiz["options"]),
-        "a": f"The answer is {letters[quiz['answer_index']]}, {quiz['options'][quiz['answer_index']]}!",
-        "e": quiz["explanation"],
-        "c": "Comment your time below, and subscribe for a new quiz every day!",
+        "q": quiz.get("question_rom", quiz["question"]),
+        "o": options_speech(speech_opts),
+        "a": f"The answer is {letters[quiz['answer_index']]}, {speech_opts[quiz['answer_index']]}!",
+        "e": quiz.get("explanation_rom", quiz["explanation"]),
+        "c": cfg.get("cta_text",
+                     "Comment your time below, and subscribe for a new quiz every day!"),
     }
     paths = {}
     async def gen_all():
         for k, v in lines.items():
             p = os.path.join(work, f"tts_{k}.mp3")
-            await tts(v, p)
+            await tts(v, p, voice)
             paths[k] = p
     asyncio.run(gen_all())
     durs = {k: dur(p) for k, p in paths.items()}
@@ -95,14 +110,14 @@ def generate(quiz, out_path=None, seed=None):
 
     # ---------- visuals ----------
     bg = slides.make_background(palette, seed=seed)
-    q = quiz
+    q = q_disp
     static = {
         "hook": slides.hook_slide(bg, q["category"], hook_text, palette),
         "question": slides.question_slide(bg, q["category"], q["question"], palette),
         "options": slides.options_slide(bg, q["category"], q["question"], q["options"], palette),
         "reveal": slides.answer_slide(bg, q["category"],
                                       q["options"][q["answer_index"]], q["explanation"], palette),
-        "cta": slides.cta_slide(bg, CHANNEL_NAME, palette),
+        "cta": slides.cta_slide(bg, channel, palette),
     }
     pngs = {k: os.path.join(work, f"slide_{k}.png") for k in static}
     for k, im in static.items():
@@ -164,11 +179,12 @@ def generate(quiz, out_path=None, seed=None):
     thumb_path = os.path.join(OUT, f"{tag}_thumb.jpg")
     thumb.save(thumb_path, quality=90)
 
-    title = f"{q['category'].title()} Quiz: Can You Solve This? #shorts"
-    desc = (f"{q['question']}\n\nComment your answer before the reveal! "
-            f"New quiz every day on {CHANNEL_NAME}.\n#quiz #riddle #trivia #shorts")
+    title = cfg.get("title_fmt", "{category} Quiz: Can You Solve This? #shorts").format(
+        category=quiz["category"].title(), id=quiz["id"])
+    desc = (f"{q_disp['question']}\n\nComment your answer before the reveal! "
+            f"New quiz every day on {channel}.\n#quiz #riddle #trivia #shorts")
     meta = {"id": tag, "title": title, "description": desc,
-            "tags": ["quiz", "riddle", "trivia", "brain teaser", "shorts"],
+            "tags": cfg.get("tags", ["quiz", "riddle", "trivia", "brain teaser", "shorts"]),
             "video": out_path, "thumbnail": thumb_path, "duration": total}
     with open(out_path.replace(".mp4", ".json"), "w") as f:
         json.dump(meta, f, indent=2)

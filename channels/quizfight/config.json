@@ -1,0 +1,12 @@
+{
+  "name": "Quiz Fight",
+  "language": "hi",
+  "voice": "hi-IN-MadhurNeural",
+  "font_body": "NotoSansDevanagari-Bold.ttf",
+  "quizzes": "content/quizzes.json",
+  "db": "automation.db",
+  "hook_text": "SIRF 1% ISKA JAWAAB DE PAATE HAI",
+  "cta_text": "Comment me apna time batao, aur subscribe karo daily quiz ke liye!",
+  "title_fmt": "{category} Quiz: Kar Sakte Ho? #shorts",
+  "tags": ["quiz", "hindi quiz", "paheli", "gk", "trivia", "shorts"]
+}
