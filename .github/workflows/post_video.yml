@@ -4,7 +4,7 @@ on:
   schedule:
     # 6 runs/day — matches YouTube Data API's free ~6 uploads/day quota.
     # For twice daily, use: "13 3,15 * * *"  (times are UTC)
-    - cron: "13 */4 * * *"
+    - cron: "13 3,15 * * *"
   workflow_dispatch: {}   # "Run workflow" button in the Actions tab
 
 permissions:
