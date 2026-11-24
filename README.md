@@ -4,10 +4,24 @@ Fully automated pipeline that generates and uploads quiz/riddle Shorts to the
 **Quizzy Daily** channel ([@QuizzyDaily-i8l](https://www.youtube.com/@QuizzyDaily-i8l))
 with **$0/month** cost and zero manual steps.
 
+## Quick links
+
+- **Channel**: https://www.youtube.com/@QuizzyDaily-i8l
+- **Actions (runs + Run-workflow button)**: https://github.com/darshitastudios/youtube-automation/actions
+- **Schedule config**: `.github/workflows/post_video.yml` (cron line)
+- **Repo Secrets**: https://github.com/darshitastudios/youtube-automation/settings/secrets/actions
+- **Riddle bank**: `content/quizzes.json`
+- **State DB**: `automation.db` (committed, auto-updated)
+- **Architecture diagram**: `ARCHITECTURE.md`
+- **Accounts inventory**: `ACCOUNTS-QUIZZY-DAILY.md`
+- **Privacy/terms site**: https://darshitastudios.github.io/youtube-automation/
+- **GCP console**: https://console.cloud.google.com/apis/dashboard?project=dark-depth-515715-n0
+- **YouTube Studio**: https://studio.youtube.com
+
 ## How it works
 
 ```
-GitHub Actions (every 4h)  →  daily_run.py  →  pick unused quiz
+GitHub Actions (2x/day)  →  daily_run.py  →  pick unused quiz
    → generate_short.py (TTS + slides + sfx → mp4 + thumbnail + metadata)
    → upload.py (YouTube Data API resumable upload + custom thumbnail)
    → state.py marks quiz used in automation.db
@@ -50,8 +64,7 @@ Run workflow**.
 - Repo **Secrets** (Settings → Secrets → Actions): `YT_CLIENT_ID`,
   `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` (OAuth for darshitastudios@gmail.com).
 - Schedule: `cron` line in `.github/workflows/post_video.yml`
-  (currently `13 */4 * * *` = every 4 hours for the test phase;
-  planned steady state: `13 3,15 * * *` = twice daily).
+  (currently `13 3,15 * * *` = twice daily, ~8:45 AM + 8:45 PM IST).
 - Legal/OAuth pages: `index.html` served via GitHub Pages at
   https://darshitastudios.github.io/youtube-automation/ (required so the OAuth
   app stays published and the refresh token never expires).
@@ -63,6 +76,9 @@ Run workflow**.
 - `feature/<name>` — one branch per change, merged into `dev`, then `dev` → `main`.
 - The Actions workflow only runs from `main`, so experiments on `dev` can't
   accidentally post videos.
+- **Rule**: every code/feature change gets a local sample video generated
+  (`python3 daily_run.py --dry-run`) and eyeballed before merging to `main`.
+  Main must always be in a state that produces a good video.
 
 Tag `v1.0.0` marks the first fully-working end-to-end pipeline (first automated
 upload from GitHub Actions, OAuth app published, Mac-free operation).
