@@ -57,7 +57,9 @@ def generate(quiz, cfg=None, out_path=None, seed=None):
     if cfg.get("font_body"):
         slides.F_BODY = cfg["font_body"]
 
-    hook_text = cfg.get("hook_text", "ONLY 1% GET THIS RIGHT")
+    rng = random.Random(seed)
+    hooks = cfg.get("hooks") or [cfg.get("hook_text", "ONLY 1% GET THIS RIGHT")]
+    hook_text = rng.choice(hooks)
     channel = cfg.get("channel_name", CHANNEL_NAME)
     letters = "ABCD"
 
@@ -181,7 +183,9 @@ def generate(quiz, cfg=None, out_path=None, seed=None):
     thumb_path = os.path.join(OUT, f"{tag}_thumb.jpg")
     thumb.save(thumb_path, quality=90)
 
-    title = cfg.get("title_fmt", "{category} Quiz: Can You Solve This? #shorts").format(
+    title_fmts = cfg.get("title_fmts") or [
+        cfg.get("title_fmt", "{category} Quiz: Can You Solve This? #shorts")]
+    title = rng.choice(title_fmts).format(
         category=quiz["category"].title(), id=quiz["id"])
     desc = (f"{q_disp['question']}\n\nComment your answer before the reveal! "
             f"New quiz every day on {channel}.\n#quiz #riddle #trivia #shorts")
