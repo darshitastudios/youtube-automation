@@ -137,9 +137,14 @@ def options_slide(bg, category, question, options, palette, reveal=-1, dim=False
         lf = font(F_DISPLAY, 52)
         lw = d.textlength(letters[i], font=lf)
         d.text((cx - lw / 2, y + box_h / 2 - 40), letters[i], font=lf, fill=(255, 255, 255))
-        of = font(F_BODY, 46)
-        ow = d.textlength(opt, font=of)
-        d.text(((x0 + 160 + x1 - 30 - ow) / 2, y + box_h / 2 - 30), opt, font=of, fill=tfill)
+        of = font(F_BODY, 46 if "\n" not in opt else 38)
+        olines = opt.split("\n")
+        lh = 46 if "\n" not in opt else 44
+        oy = y + box_h / 2 - lh * len(olines) / 2 - 6
+        for ol in olines:
+            ow = d.textlength(ol, font=of)
+            d.text(((x0 + 160 + x1 - 30 - ow) / 2, oy), ol, font=of, fill=tfill)
+            oy += lh + 8
         if correct:
             d.text((x1 - 80, y + box_h / 2 - 42), "✓", font=font(F_BODY, 70), fill=(255, 255, 255))
         y += box_h + 36

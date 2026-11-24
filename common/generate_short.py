@@ -68,6 +68,8 @@ def generate(quiz, cfg=None, out_path=None, seed=None):
     if q_disp.get("explanation_rom"):
         q_disp["explanation"] = q_disp["explanation_rom"] + "\n" + q_disp["explanation"]
     speech_opts = quiz.get("options_speech", quiz["options"])
+    if quiz.get("options_dev"):
+        q_disp["options"] = [f"{o}\n{d}" for o, d in zip(quiz["options"], quiz["options_dev"])]
 
     voice = cfg.get("voice", VOICE)
 
