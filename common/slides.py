@@ -137,9 +137,14 @@ def options_slide(bg, category, question, options, palette, reveal=-1, dim=False
         lf = font(F_DISPLAY, 52)
         lw = d.textlength(letters[i], font=lf)
         d.text((cx - lw / 2, y + box_h / 2 - 40), letters[i], font=lf, fill=(255, 255, 255))
-        of = font(F_BODY, 46)
-        ow = d.textlength(opt, font=of)
-        d.text(((x0 + 160 + x1 - 30 - ow) / 2, y + box_h / 2 - 30), opt, font=of, fill=tfill)
+        of = font(F_BODY, 46 if "\n" not in opt else 38)
+        olines = opt.split("\n")
+        lh = 46 if "\n" not in opt else 44
+        oy = y + box_h / 2 - lh * len(olines) / 2 - 6
+        for ol in olines:
+            ow = d.textlength(ol, font=of)
+            d.text(((x0 + 160 + x1 - 30 - ow) / 2, oy), ol, font=of, fill=tfill)
+            oy += lh + 8
         if correct:
             d.text((x1 - 80, y + box_h / 2 - 42), "✓", font=font(F_BODY, 70), fill=(255, 255, 255))
         y += box_h + 36
@@ -147,21 +152,25 @@ def options_slide(bg, category, question, options, palette, reveal=-1, dim=False
 
 
 def countdown_frame(bg, category, question, options, palette, t_left, total):
-    """Full countdown frame: dimmed options + big number + shrinking bar."""
+    """Countdown frame: options stay visible; timer sits below them."""
     img = options_slide(bg, category, question, options, palette, dim=True)
-    overlay = Image.new("RGBA", (W, H), (0, 0, 0, 150))
-    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
+    # darken only the strip below the last option so the number pops
+    img = img.convert("RGBA")
+    overlay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    od.rectangle([0, 1500, W, 1810], fill=(0, 0, 0, 130))
+    img = Image.alpha_composite(img, overlay).convert("RGB")
     d = ImageDraw.Draw(img)
     secs = max(1, math.ceil(t_left))
-    text_center(d, 700, str(secs), font(F_DISPLAY, 320), (255, 255, 255), sw=10)
-    text_center(d, 1080, "TIME LEFT", font(F_BODY, 48), palette["accent"], sw=4)
-    # bar
+    text_center(d, 1520, str(secs), font(F_DISPLAY, 200), (255, 255, 255), sw=8)
+    text_center(d, 1730, "SECONDS LEFT", font(F_BODY, 40), palette["accent"], sw=4)
+    # bar pinned to the very bottom
     frac = max(0.0, t_left / total)
     bw = int((W - 140) * frac)
-    d.rounded_rectangle([70, 1180, W - 70, 1240], 30, fill=(50, 50, 70))
+    d.rounded_rectangle([70, 1840, W - 70, 1900], 30, fill=(50, 50, 70))
     if bw > 60:
         col = palette["accent"] if frac > 0.4 else palette["accent2"]
-        d.rounded_rectangle([70, 1180, 70 + bw, 1240], 30, fill=col)
+        d.rounded_rectangle([70, 1840, 70 + bw, 1900], 30, fill=col)
     return img
 
 
