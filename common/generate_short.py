@@ -64,9 +64,9 @@ def generate(quiz, cfg=None, out_path=None, seed=None):
     # display (dual-script) vs speech strings
     q_disp = dict(quiz)
     if q_disp.get("question_rom"):
-        q_disp["question"] = q_disp["question"] + "\n" + q_disp["question_rom"]
+        q_disp["question"] = q_disp["question_rom"] + "\n" + q_disp["question"]
     if q_disp.get("explanation_rom"):
-        q_disp["explanation"] = q_disp["explanation"] + "\n" + q_disp["explanation_rom"]
+        q_disp["explanation"] = q_disp["explanation_rom"] + "\n" + q_disp["explanation"]
     speech_opts = quiz.get("options_speech", quiz["options"])
 
     voice = cfg.get("voice", VOICE)
