@@ -84,24 +84,49 @@ def midi(m):
     return 440.0 * 2 ** ((m - 69) / 12)
 
 
-def music_bed(dur, bpm=138, vol=0.5):
-    """Tense upbeat loop: Am F C G arpeggio + kick/hats, game-show feel."""
+THEMES = [
+    # Am F C G — the original tense game-show arpeggio
+    dict(bpm=138, wave="tri", arp=8,
+         chords=[[57, 60, 64], [53, 57, 60], [48, 52, 55], [55, 59, 62]]),
+    # Em C G D — slower, moodier "think" vibe
+    dict(bpm=104, wave="sine", arp=8,
+         chords=[[52, 55, 59], [48, 52, 55], [55, 59, 62], [50, 54, 57]]),
+    # C G Am F — brighter, poppier bounce
+    dict(bpm=126, wave="saw", arp=8,
+         chords=[[48, 52, 55], [55, 59, 62], [57, 60, 64], [53, 57, 60]]),
+    # Dm Bb Gm A — darker tension, heavier groove
+    dict(bpm=150, wave="tri", arp=8,
+         chords=[[50, 53, 57], [46, 50, 53], [55, 58, 62], [57, 61, 64]]),
+    # G Em C D — lighter, playful daytime feel
+    dict(bpm=118, wave="sine", arp=16,
+         chords=[[55, 59, 62], [52, 55, 59], [48, 52, 55], [50, 54, 57]]),
+]
+
+
+def music_bed(dur, bpm=None, vol=0.5, theme=None, seed=0):
+    """Upbeat looping bed: chord arpeggio + bass + kick/hats.
+    `theme` = index into THEMES; picked from `seed` when None — consecutive
+    seeds give different-feeling tracks so binge-watchers get variety."""
+    t = THEMES[(theme if theme is not None else seed) % len(THEMES)]
+    bpm = bpm or t["bpm"]
+    chords = t["chords"]
+    wave_kind = t["wave"]
+    arp = t["arp"]
     n = int(dur * SR)
     out = np.zeros(n, dtype=np.float32)
     beat = 60.0 / bpm
-    chords = [[57, 60, 64], [53, 57, 60], [48, 52, 55], [55, 59, 62]]  # Am F C G
+    step = (beat * 4) / arp  # even spread of `arp` notes across the 4-beat bar
     bar = beat * 4
     pos = 0.0
     ci = 0
     while pos < dur:
         ch = chords[ci % len(chords)]
-        for k in range(8):  # 8th-note arpeggio
-            note = ch[k % 3] + (12 if k >= 6 else 0)
-            seg = tone(midi(note), beat * 0.48, "tri", vol * 0.22)
-            s = int((pos + k * beat / 2) * SR)
+        for k in range(arp):
+            note = ch[k % 3] + (12 if k >= arp * 0.75 else 0)
+            seg = tone(midi(note), step * 0.9, wave_kind, vol * 0.22)
+            s = int((pos + k * step) * SR)
             if s + len(seg) <= n:
                 out[s : s + len(seg)] += seg
-        # bass on beat 1 and 3
         for b in (0, 2):
             seg = tone(midi(ch[0] - 12), beat * 0.9, "sine", vol * 0.5)
             s = int((pos + b * beat) * SR)
