@@ -1,12 +1,9 @@
 name: Post quiz video (Quiz Fight — Hindi)
 
-# NOTE: schedule is OFF until the Quiz Fight channel exists and its
-# YT_REFRESH_TOKEN_QUIZFIGHT secret is added (one OAuth consent for the
-# second channel). Manual "Run workflow" works only after that too.
 on:
   workflow_dispatch: {}
-  # schedule:
-  #   - cron: "43 6,18 * * *"   # different times than quizzydaily
+  schedule:
+    - cron: "43 6,18 * * *"   # ~12:13pm + 00:13 IST, different times than quizzydaily
 
 permissions:
   contents: write
