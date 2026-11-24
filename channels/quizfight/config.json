@@ -2,7 +2,7 @@
   "name": "Quiz Fight",
   "language": "hi",
   "voice": "hi-IN-MadhurNeural",
-  "font_body": "NotoSansDevanagari-Bold.ttf",
+  "font_body": "Mukta-Bold.ttf",
   "quizzes": "content/quizzes.json",
   "db": "automation.db",
   "hook_text": "SIRF 1% ISKA JAWAAB DE PAATE HAI",
