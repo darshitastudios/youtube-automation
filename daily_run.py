@@ -38,7 +38,8 @@ def main():
         print(f"[{quiz['id']}] uploading...")
         resp = upload.upload(meta["video"], meta["title"], meta["description"],
                              meta["tags"], made_for_kids=False,
-                             publish_at=args.publish_at)
+                             publish_at=args.publish_at,
+                             thumbnail_path=meta.get("thumbnail"))
         vid = resp.get("id")
         state.mark_uploaded(quiz["id"], vid, meta["title"])
         print(f"[{quiz['id']}] uploaded: https://youtu.be/{vid}")

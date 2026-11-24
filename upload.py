@@ -30,7 +30,24 @@ def access_token():
     })["access_token"]
 
 
-def upload(video_path, title, description, tags, made_for_kids=False, publish_at=None):
+def set_thumbnail(token, video_id, png_path):
+    with open(png_path, "rb") as f:
+        data = f.read()
+    req = urllib.request.Request(
+        "https://www.googleapis.com/upload/youtube/v3/thumbnails/set?"
+        + urllib.parse.urlencode({"videoId": video_id, "uploadType": "media"}),
+        data=data,
+        headers={"Authorization": f"Bearer {token}",
+                 "Content-Type": "image/png",
+                 "Content-Length": str(len(data))},
+        method="POST",
+    )
+    with urllib.request.urlopen(req) as r:
+        return json.loads(r.read())
+
+
+def upload(video_path, title, description, tags, made_for_kids=False, publish_at=None,
+           thumbnail_path=None):
     """Resumable upload. publish_at: RFC3339 string to schedule, else private=False public."""
     token = access_token()
     size = os.path.getsize(video_path)
@@ -67,4 +84,10 @@ def upload(video_path, title, description, tags, made_for_kids=False, publish_at
                                               "Content-Length": str(size)},
                                      method="PUT")
         with urllib.request.urlopen(req) as r:
-            return json.loads(r.read())  # contains "id"
+            resp = json.loads(r.read())  # contains "id"
+    if thumbnail_path and resp.get("id"):
+        try:
+            set_thumbnail(token, resp["id"], thumbnail_path)
+        except Exception as e:
+            print(f"thumbnail upload failed (non-fatal): {e}")
+    return resp
