@@ -1,111 +1,151 @@
-# Quizzy Daily — Automated YouTube Shorts Pipeline
+# YouTube Automation — Multi-Channel Shorts Pipeline
 
-Fully automated pipeline that generates and uploads quiz/riddle Shorts to the
-**Quizzy Daily** channel ([@QuizzyDaily-i8l](https://www.youtube.com/@QuizzyDaily-i8l))
-with **$0/month** cost and zero manual steps.
+Fully automated pipeline that generates and uploads quiz Shorts to **multiple
+YouTube channels** with **$0/month** cost and zero manual steps. One Google
+account hosts every channel; one repo hosts every pipeline.
+
+## Channels
+
+| Channel | Handle | Language | Folder | Workflow | Schedule (IST) |
+|---|---|---|---|---|---|
+| Quizzy Daily | [@QuizzyDaily-i8l](https://www.youtube.com/@QuizzyDaily-i8l) | English | `channels/quizzydaily/` | `post_video_quizzydaily.yml` | 8:00 AM + 8:00 PM |
+| Quiz Fight | [@QuizFight-t8i](https://www.youtube.com/@QuizFight-t8i) | Hindi (dual-script) | `channels/quizfight/` | `post_video_quizfight.yml` | 8:15 AM + 8:15 PM |
+
+Next channel = new `channels/<name>/` dir + one workflow file + one
+`YT_REFRESH_TOKEN_<NAME>` secret + one OAuth consent (pick the channel in the
+Google brand-account picker).
 
 ## Quick links
 
-- **Channel**: https://www.youtube.com/@QuizzyDaily-i8l
-- **Actions (runs + Run-workflow button)**: https://github.com/darshitastudios/youtube-automation/actions
-- **Schedule configs**: `.github/workflows/post_video_<channel>.yml` (cron line)
+- **Actions + "Run workflow" button**: https://github.com/darshitastudios/youtube-automation/actions
 - **Repo Secrets**: https://github.com/darshitastudios/youtube-automation/settings/secrets/actions
-- **Riddle bank**: `channels/quizzydaily/content/quizzes.json`
-- **State DBs**: `channels/*/automation.db` (committed, auto-updated)
+- **Quiz banks**: `channels/<name>/content/quizzes.json`
+- **State DBs**: `channels/<name>/automation.db` (committed, auto-updated)
 - **Architecture diagram**: `ARCHITECTURE.md`
-- **Accounts inventory**: `ACCOUNTS-QUIZZY-DAILY.md`
-- **Privacy/terms site**: https://darshitastudios.github.io/youtube-automation/
+- **Accounts & credentials inventory**: `ACCOUNTS-QUIZZY-DAILY.md`
+- **Privacy/terms site** (keeps OAuth token permanent): https://darshitastudios.github.io/youtube-automation/
 - **GCP console**: https://console.cloud.google.com/apis/dashboard?project=dark-depth-515715-n0
 - **YouTube Studio**: https://studio.youtube.com
 
 ## How it works
 
 ```
-GitHub Actions (2x/day)  →  daily_run.py  →  pick unused quiz
-   → generate_short.py (TTS + slides + sfx → mp4 + thumbnail + metadata)
-   → upload.py (YouTube Data API resumable upload + custom thumbnail)
-   → state.py marks quiz used in automation.db
+GitHub Actions (per channel, 2x/day)  →  daily_run.py --channel <name>
+   → pick next unused quiz from channels/<name>/content/quizzes.json
+   → common/generate_short.py  (edge-tts voice + Pillow slides + sfx → mp4 + thumbnail)
+   → common/upload.py          (YouTube Data API resumable upload + set thumbnail)
+   → common/state.py           marks quiz used in channels/<name>/automation.db
    → workflow commits automation.db back to this repo
 ```
 
 | Piece | Tech | Cost |
 |---|---|---|
-| Voice | edge-tts (Microsoft neural voices) | free |
-| Visuals | Pillow + moviepy, programmatic slides | free |
-| Music/SFX | synthesized in `audio_synth.py` | free |
+| Voice | edge-tts (`en-US-ChristopherNeural`, `hi-IN-MadhurNeural`) | free |
+| Visuals | Pillow + moviepy; countdown keeps all 4 options visible | free |
+| Fonts | Anton/ArchivoBlack (English), Mukta-Bold (Devanagari + Latin) | free |
+| Music/SFX | synthesized in `common/audio_synth.py` | free |
 | Encode | ffmpeg | free |
 | Upload | YouTube Data API v3 | free, ~6 uploads/day quota |
 | Scheduler | GitHub Actions | free (public repo) |
-| State | `automation.db` (SQLite) **committed in this repo** | free |
+| State | per-channel `automation.db` (SQLite) **committed in this repo** | free |
+
+## Per-channel structure
+
+Each `channels/<name>/` owns:
+- `config.json` — channel name, language, TTS voice, `font_body`, hook text,
+  CTA text, `title_fmt`, tags, quizzes/db paths
+- `content/quizzes.json` — question bank (see schema below)
+- `automation.db` — used-question tracking (single source of truth, committed back every run)
+
+Quiz item schema (dual-script Hindi channel):
+```json
+{"id": "hi-001", "category": "PAHELI",
+ "question": "<Devanagari>", "question_rom": "<romanized>",
+ "options": ["romanized ×4"], "options_dev": ["Devanagari ×4"],
+ "answer_index": 0,
+ "explanation": "<Devanagari>", "explanation_rom": "<romanized>"}
+```
+On screen: romanized on top, Devanagari below (question AND options). Audio
+speaks the romanized line once. English bank omits the `_rom`/`options_dev`
+fields.
 
 ## Where state lives
 
-Each channel has its own `automation.db` — the single source of truth for "which riddles were already
-posted". It is **tracked in git** — each Actions run commits the updated DB back
-to `main`. There is no DB on the Mac anymore; the old local copy and the macOS
-scheduler were removed (2026-11-24). Never run `daily_run.py` from two places
-against different DBs — that caused the duplicate "echo" video.
+Each channel has its own `automation.db` — the single source of truth for
+"which quizzes were already posted". It is **tracked in git** — each Actions
+run commits the updated DB back to `main`. There is no DB on the Mac anymore;
+the old local copy and the macOS scheduler were removed (2026-11-24). Never
+run `daily_run.py` from two places against different DBs — that caused the
+duplicate "echo" video.
 
 ## Commands
 
 ```bash
-python3 daily_run.py --dry-run      # generate a video locally, don't upload
-python3 daily_run.py                # pick + generate + upload one video
-python3 daily_run.py --count 3      # up to ~6/day (API quota)
-python3 daily_run.py --publish-at 2026-12-01T15:00:00Z   # scheduled publish
+python3 daily_run.py --channel quizzydaily --dry-run   # local sample, no upload
+python3 daily_run.py --channel quizfight               # pick + generate + upload one
+python3 daily_run.py --channel quizzydaily --count 3   # up to ~6/day (API quota)
 ```
 
-Instant upload without waiting for cron: GitHub → **Actions → Post video →
-Run workflow**.
+Instant upload without waiting for cron: **Actions → pick the channel's
+workflow → Run workflow**. Each workflow is independent — one click = one
+video on that channel.
 
-## Configuration
+## Secrets (GitHub repo)
 
-- `channels/<name>/content/quizzes.json` — per-channel question bank. Add riddles as JSON.
-- Repo **Secrets** (Settings → Secrets → Actions): `YT_CLIENT_ID`,
-  `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` (OAuth for darshitastudios@gmail.com).
-- Schedule: `cron` line in `.github/workflows/post_video.yml`
-  (quizzydaily: `13 3,15 * * *` = twice daily, ~8:45 AM + 8:45 PM IST).
-- Legal/OAuth pages: `index.html` served via GitHub Pages at
-  https://darshitastudios.github.io/youtube-automation/ (required so the OAuth
-  app stays published and the refresh token never expires).
+| Secret | What |
+|---|---|
+| `YT_CLIENT_ID` / `YT_CLIENT_SECRET` | OAuth client (GCP project `quizzy-daily`) — shared by all channels |
+| `YT_REFRESH_TOKEN` | YouTube token for Quizzy Daily channel |
+| `YT_REFRESH_TOKEN_QUIZFIGHT` | YouTube token for Quiz Fight channel |
+| `YT_REFRESH_TOKEN_<NAME>` | one per new channel — generated by one OAuth consent picking that brand account |
+
+Token longevity: the OAuth app is **published to production** (verification
+skipped — fine for own-use uploads). Its privacy/terms pages live on the
+GitHub Pages site, so refresh tokens never expire (unlike Testing-mode 7-day).
+
+## Git branching strategy
+
+- `main` — releases only. Tagged milestones (v1.0.0 pipeline, v1.1.0 restructure
+  + Quiz Fight scaffold, v1.2.0 Quiz Fight live).
+- `dev` — integration branch; all work lands here first.
+- `feature/<name>` — one branch per change, merged into `dev`, then `dev` → `main`.
+- The scheduled cron only runs from `main`, so experiments on `dev` can't
+  accidentally post videos (manual "Run workflow" can pick `dev` for testing).
+- **Rule**: every code/feature change gets a local sample video generated
+  (`python3 daily_run.py --channel <name> --dry-run`) and eyeballed before
+  merging to `main`. No merges to `main` without the owner's approval.
 
 ## Repo layout
 
 ```
-common/            shared engine: slides, tts, music, upload, state
-  assets/fonts/
-channels/<name>/   one dir per YouTube channel
-  config.json      voice, language, title format, tags
-  content/quizzes.json
-  automation.db
-.github/workflows/post_video_<name>.yml
-out/  work/        generated videos (gitignored)
+common/              shared engine
+  slides.py          slide layouts incl. countdown (options always visible)
+  generate_short.py  TTS + video assembly, dual-script display logic
+  audio_synth.py     background music + reveal sting
+  upload.py          resumable upload + thumbnail set
+  state.py           SQLite pick/mark helpers
+  assets/fonts/      Anton, ArchivoBlack, Nunito-Bold, Mukta-Bold, NotoSansDevanagari
+channels/
+  quizzydaily/       config.json, content/quizzes.json (164 English), automation.db
+  quizfight/         config.json, content/quizzes.json (150 Hindi dual-script), automation.db
+.github/workflows/   post_video_<channel>.yml — one per channel
+daily_run.py         entrypoint: --channel <name> [--dry-run] [--count N] [--publish-at ISO]
+out/  work/          generated videos (gitignored)
+ARCHITECTURE.md      mermaid diagram of the full flow
+ACCOUNTS-QUIZZY-DAILY.md  accounts/secrets inventory (names + locations, no values)
 ```
-
-Add channel N+1 = new `channels/<name>/` dir + one workflow file + one
-`YT_REFRESH_TOKEN_<NAME>` secret.
-
-## Git branching strategy
-
-- `main` — releases only. Tagged milestones.
-- `dev` — integration branch; all work lands here first.
-- `feature/<name>` — one branch per change, merged into `dev`, then `dev` → `main`.
-- The Actions workflow only runs from `main`, so experiments on `dev` can't
-  accidentally post videos.
-- **Rule**: every code/feature change gets a local sample video generated
-  (`python3 daily_run.py --dry-run`) and eyeballed before merging to `main`.
-  Main must always be in a state that produces a good video.
-
-Tag `v1.0.0` marks the first fully-working end-to-end pipeline (first automated
-upload from GitHub Actions, OAuth app published, Mac-free operation).
 
 ## History / plan
 
 1. Built the video engine (slides + TTS + ffmpeg) — samples approved.
 2. Manual first upload from the user's Mac (`launchd` at 10 AM) — video 1 live.
-3. Migrated to GitHub Actions — video 2+ uploaded with no Mac.
+3. Migrated to GitHub Actions — uploads with no Mac (removed Mac scheduler + DB).
 4. Published the OAuth app (GitHub Pages + Search Console verification) so the
    refresh token is permanent.
+5. Restructured into `common/` + `channels/<name>/` and launched channel 2
+   (Quiz Fight — Hindi dual-script quiz Shorts).
+6. Countdown redesign: options stay visible; timer/bar moved below them.
 
-Roadmap: twice-daily posting, auto-refill of the riddle bank (free Gemini API),
-more channels on the same Google account.
+Roadmap: auto-refill of quiz banks (free Gemini API key from
+aistudio.google.com), more channels on the same Google account, Instagram
+Reels automation via Meta Graph API (needs Creator/Business IG + FB app).

@@ -3,7 +3,7 @@ name: Post quiz video (Quiz Fight — Hindi)
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "43 6,18 * * *"   # ~12:13pm + 00:13 IST, different times than quizzydaily
+    - cron: "45 2,14 * * *"   # 8:15 AM + 8:15 PM IST (offset to not collide with quizzydaily)
 
 permissions:
   contents: write
