@@ -167,7 +167,7 @@ def generate(quiz, cfg=None, out_path=None, seed=None):
     tracks.append(AudioFileClip(whoosh_w).set_start(0))
     tracks.append(AudioFileClip(whoosh_w).set_start(at["reveal"]))
     music_w = os.path.join(work, "music.wav")
-    syn.save_wav(music_w, syn.music_bed(total, vol=0.32))
+    syn.save_wav(music_w, syn.music_bed(total, vol=0.32, seed=seed))
     tracks.append(AudioFileClip(music_w).set_start(0).volumex(0.55))
 
     video = video.set_audio(CompositeAudioClip(tracks).set_duration(total))
