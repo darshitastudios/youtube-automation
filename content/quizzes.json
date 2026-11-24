@@ -1,0 +1,1314 @@
+[
+  {
+    "id": "riddle-001",
+    "category": "RIDDLE",
+    "question": "I speak without a mouth and hear without ears. What am I?",
+    "options": ["A ghost", "An echo", "A shadow", "The wind"],
+    "answer_index": 1,
+    "explanation": "An echo repeats sounds — it 'speaks' and 'hears' with no body!"
+  },
+  {
+    "id": "riddle-002",
+    "category": "RIDDLE",
+    "question": "The more of me you take, the more you leave behind. What am I?",
+    "options": ["Time", "Footsteps", "Money", "Breaths"],
+    "answer_index": 1,
+    "explanation": "Every step you take leaves a footprint behind you."
+  },
+  {
+    "id": "riddle-003",
+    "category": "RIDDLE",
+    "question": "What has keys but can't open a single lock?",
+    "options": ["A janitor", "A piano", "A map", "A keyboard warrior"],
+    "answer_index": 1,
+    "explanation": "A piano has 88 keys — and opens zero locks."
+  },
+  {
+    "id": "riddle-004",
+    "category": "RIDDLE",
+    "question": "What gets wetter the more it dries?",
+    "options": ["A sponge", "The sun", "A towel", "Rain"],
+    "answer_index": 2,
+    "explanation": "A towel gets wetter as it dries you off."
+  },
+  {
+    "id": "riddle-005",
+    "category": "RIDDLE",
+    "question": "What can you catch, but never throw?",
+    "options": ["A ball", "A cold", "A fish", "A secret"],
+    "answer_index": 1,
+    "explanation": "You can catch a cold — but throwing it? Impossible."
+  },
+  {
+    "id": "riddle-006",
+    "category": "RIDDLE",
+    "question": "What has a head and a tail, but no body?",
+    "options": ["A snake", "A coin", "A comet", "A nail"],
+    "answer_index": 1,
+    "explanation": "A coin has heads and tails — and nothing in between."
+  },
+  {
+    "id": "riddle-007",
+    "category": "RIDDLE",
+    "question": "What breaks the moment you say its name?",
+    "options": ["Glass", "A promise", "Silence", "A secret"],
+    "answer_index": 2,
+    "explanation": "Silence is broken the instant you speak."
+  },
+  {
+    "id": "riddle-008",
+    "category": "RIDDLE",
+    "question": "What has many teeth, but never bites?",
+    "options": ["A comb", "A shark", "A zipper", "A chainsaw"],
+    "answer_index": 0,
+    "explanation": "A comb is full of teeth that couldn't hurt a fly."
+  },
+  {
+    "id": "trivia-001",
+    "category": "TRIVIA",
+    "question": "What is the only letter not in any U.S. state name?",
+    "options": ["Z", "Q", "X", "J"],
+    "answer_index": 1,
+    "explanation": "Q is missing from all 50 state names — even Illinois has an S!"
+  },
+  {
+    "id": "trivia-002",
+    "category": "TRIVIA",
+    "question": "How many hearts does an octopus have?",
+    "options": ["1", "2", "3", "8"],
+    "answer_index": 2,
+    "explanation": "Three hearts: two pump blood to the gills, one to the body."
+  },
+  {
+    "id": "trivia-003",
+    "category": "TRIVIA",
+    "question": "What is the only food that never expires?",
+    "options": ["Rice", "Honey", "Salt", "Dried beans"],
+    "answer_index": 1,
+    "explanation": "Honey found in ancient Egyptian tombs was still edible — 3,000 years later."
+  },
+  {
+    "id": "trivia-004",
+    "category": "TRIVIA",
+    "question": "Which planet spins on its side?",
+    "options": ["Mars", "Neptune", "Uranus", "Venus"],
+    "answer_index": 2,
+    "explanation": "Uranus is tilted 98 degrees — it rolls around the Sun like a ball."
+  },
+  {
+    "id": "trivia-005",
+    "category": "TRIVIA",
+    "question": "What does a group of flamingos called?",
+    "options": ["A flock", "A flamboyance", "A parade", "A blush"],
+    "answer_index": 1,
+    "explanation": "A group of flamingos is literally called a flamboyance."
+  },
+  {
+    "id": "trivia-006",
+    "category": "TRIVIA",
+    "question": "Bananas are berries. Are strawberries berries too?",
+    "options": ["Yes, obviously", "No, not botanically", "Only wild ones", "Only ripe ones"],
+    "answer_index": 1,
+    "explanation": "Botanically, bananas are berries — but strawberries aren't."
+  },
+  {
+    "id": "trivia-007",
+    "category": "TRIVIA",
+    "question": "What percentage of your brain is water?",
+    "options": ["About 25%", "About 50%", "About 75%", "About 90%"],
+    "answer_index": 2,
+    "explanation": "Your brain is roughly 75% water — stay hydrated!"
+  },
+  {
+    "id": "trivia-008",
+    "category": "TRIVIA",
+    "question": "Which animal can't jump?",
+    "options": ["Elephant", "Penguin", "Hippo", "Turtle"],
+    "answer_index": 0,
+    "explanation": "Elephants are the only mammals that can't jump — too heavy!"
+  },
+  {
+    "id": "math-001",
+    "category": "MATH",
+    "question": "If a number is doubled, then 6 is added, the result is 20. What is the number?",
+    "options": ["6", "7", "8", "10"],
+    "answer_index": 1,
+    "explanation": "2x + 6 = 20, so 2x = 14 and x = 7."
+  },
+  {
+    "id": "math-002",
+    "category": "MATH",
+    "question": "What is 15% of 200?",
+    "options": ["15", "25", "30", "45"],
+    "answer_index": 2,
+    "explanation": "10% is 20, half of that (5%) is 10 — 20 + 10 = 30."
+  },
+  {
+    "id": "math-003",
+    "category": "MATH",
+    "question": "A farmer has 17 sheep. All but 9 run away. How many are left?",
+    "options": ["8", "9", "17", "0"],
+    "answer_index": 1,
+    "explanation": "\"All but 9\" means 9 stayed behind. Tricky wording!"
+  },
+  {
+    "id": "math-004",
+    "category": "MATH",
+    "question": "What comes next: 2, 6, 12, 20, 30, ...?",
+    "options": ["36", "40", "42", "44"],
+    "answer_index": 2,
+    "explanation": "The gaps grow by 2 each time: +4, +6, +8, +10, so next is +12 = 42."
+  },
+  {
+    "id": "wordplay-001",
+    "category": "WORDPLAY",
+    "question": "What 5-letter word gets shorter when you add 2 letters to it?",
+    "options": ["Short", "Small", "Brief", "Light"],
+    "answer_index": 0,
+    "explanation": "'Short' + 'er' = shorter. Literally!"
+  },
+  {
+    "id": "wordplay-002",
+    "category": "WORDPLAY",
+    "question": "What word is spelled wrong in every dictionary?",
+    "options": ["Misspelled", "Wrong", "Error", "Dictionary"],
+    "answer_index": 1,
+    "explanation": "The word 'wrong' is always spelled... wrong."
+  },
+  {
+    "id": "wordplay-003",
+    "category": "WORDPLAY",
+    "question": "What has cities, but no houses; rivers, but no water; forests, but no trees?",
+    "options": ["A map", "A book", "A painting", "A dream"],
+    "answer_index": 0,
+    "explanation": "A map has all of them — as symbols only."
+  },
+  {
+    "id": "wordplay-004",
+    "category": "WORDPLAY",
+    "question": "Forward I'm heavy, backward I'm not. What am I?",
+    "options": ["A truck", "The word 'ton'", "A boulder", "Gravity"],
+    "answer_index": 1,
+    "explanation": "'Ton' is heavy; backwards it's 'not'!"
+  },
+  {
+    "id": "riddle-009",
+    "category": "RIDDLE",
+    "question": "What has hands but can't clap?",
+    "options": ["A statue", "A clock", "A glove", "A baby"],
+    "answer_index": 1,
+    "explanation": "A clock has hands that only tell time."
+  },
+  {
+    "id": "riddle-010",
+    "category": "RIDDLE",
+    "question": "What has one eye but can't see?",
+    "options": ["A needle", "A storm", "A potato", "All three!"],
+    "answer_index": 3,
+    "explanation": "A needle, a hurricane's eye, and a potato's eye — none see!"
+  },
+  {
+    "id": "riddle-011",
+    "category": "RIDDLE",
+    "question": "What goes up but never comes down?",
+    "options": ["A balloon", "Your age", "Smoke", "The sun"],
+    "answer_index": 1,
+    "explanation": "Your age only goes one direction — up!"
+  },
+  {
+    "id": "riddle-012",
+    "category": "RIDDLE",
+    "question": "What has a neck but no head?",
+    "options": ["A giraffe", "A bottle", "A shirt", "A guitar"],
+    "answer_index": 1,
+    "explanation": "A bottle's neck holds the cap — no head anywhere."
+  },
+  {
+    "id": "riddle-013",
+    "category": "RIDDLE",
+    "question": "The more you remove, the bigger I get. What am I?",
+    "options": ["A pile", "A hole", "A secret", "A debt"],
+    "answer_index": 1,
+    "explanation": "Dig more out of a hole and the hole grows."
+  },
+  {
+    "id": "riddle-014",
+    "category": "RIDDLE",
+    "question": "What runs but never walks, has a mouth but never talks?",
+    "options": ["A dog", "A river", "A watch", "A nose"],
+    "answer_index": 1,
+    "explanation": "A river runs and has a mouth — where it meets the sea."
+  },
+  {
+    "id": "riddle-015",
+    "category": "RIDDLE",
+    "question": "What is full of holes but still holds water?",
+    "options": ["A bucket", "A sponge", "A net", "A cloud"],
+    "answer_index": 1,
+    "explanation": "A sponge is full of holes and soaks up water."
+  },
+  {
+    "id": "riddle-016",
+    "category": "RIDDLE",
+    "question": "What can travel around the world while staying in a corner?",
+    "options": ["A plane", "A stamp", "The internet", "A letter"],
+    "answer_index": 1,
+    "explanation": "A stamp sits in the corner of an envelope going worldwide."
+  },
+  {
+    "id": "riddle-017",
+    "category": "RIDDLE",
+    "question": "What has a face and two hands but no arms or legs?",
+    "options": ["A doll", "A clock", "A mask", "A puppet"],
+    "answer_index": 1,
+    "explanation": "A clock's face and hands tell time — no limbs needed."
+  },
+  {
+    "id": "riddle-018",
+    "category": "RIDDLE",
+    "question": "What gets bigger when more is taken away from it?",
+    "options": ["Debt", "A hole", "A cake", "A crowd"],
+    "answer_index": 1,
+    "explanation": "Take more dirt out and the hole just gets bigger."
+  },
+  {
+    "id": "riddle-019",
+    "category": "RIDDLE",
+    "question": "I'm light as a feather, yet the strongest man can't hold me for long. What am I?",
+    "options": ["A breath", "A thought", "A lie", "Time"],
+    "answer_index": 0,
+    "explanation": "Try holding your breath for five minutes — good luck!"
+  },
+  {
+    "id": "riddle-020",
+    "category": "RIDDLE",
+    "question": "What has legs but doesn't walk?",
+    "options": ["A chair", "A marathon", "A snake", "A tree"],
+    "answer_index": 0,
+    "explanation": "A chair has four legs that never move."
+  },
+  {
+    "id": "riddle-021",
+    "category": "RIDDLE",
+    "question": "What belongs to you but others use it more than you?",
+    "options": ["Your money", "Your name", "Your phone", "Your car"],
+    "answer_index": 1,
+    "explanation": "Everyone else says your name far more than you do."
+  },
+  {
+    "id": "riddle-022",
+    "category": "RIDDLE",
+    "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "options": ["The letter M", "A second", "Midnight", "Luck"],
+    "answer_index": 0,
+    "explanation": "M-inute has one M, M-o-M-ent has two, 'thousand years' has none."
+  },
+  {
+    "id": "riddle-023",
+    "category": "RIDDLE",
+    "question": "What can you keep after giving it to someone?",
+    "options": ["Money", "A secret", "Your word", "A gift"],
+    "answer_index": 2,
+    "explanation": "You give your word — and still keep it. Or should!"
+  },
+  {
+    "id": "riddle-024",
+    "category": "RIDDLE",
+    "question": "What goes through cities and fields but never moves?",
+    "options": ["A road", "A river", "Time", "A train"],
+    "answer_index": 0,
+    "explanation": "A road stretches everywhere and never budges."
+  },
+  {
+    "id": "riddle-025",
+    "category": "RIDDLE",
+    "question": "What has a thumb and four fingers but isn't alive?",
+    "options": ["A hand", "A glove", "A drawing", "A mitten puppet"],
+    "answer_index": 1,
+    "explanation": "A glove has fingers — but nobody's home inside."
+  },
+  {
+    "id": "riddle-026",
+    "category": "RIDDLE",
+    "question": "What tastes better than it smells?",
+    "options": ["Coffee", "A tongue", "Durian", "Cheese"],
+    "answer_index": 1,
+    "explanation": "Your tongue tastes things — your nose smells them!"
+  },
+  {
+    "id": "riddle-027",
+    "category": "RIDDLE",
+    "question": "What kind of coat is always wet when you put it on?",
+    "options": ["A raincoat", "A coat of paint", "A fur coat", "A winter coat"],
+    "answer_index": 1,
+    "explanation": "A coat of paint goes on wet — that's the point."
+  },
+  {
+    "id": "riddle-028",
+    "category": "RIDDLE",
+    "question": "What has many teeth but can't bite?",
+    "options": ["A shark", "A comb", "A saw", "A zipper"],
+    "answer_index": 1,
+    "explanation": "A comb's teeth only fight tangles."
+  },
+  {
+    "id": "riddle-029",
+    "category": "RIDDLE",
+    "question": "What is always in front of you but can't be seen?",
+    "options": ["The air", "The future", "Your nose", "Tomorrow"],
+    "answer_index": 1,
+    "explanation": "The future is ahead — and invisible until it arrives."
+  },
+  {
+    "id": "riddle-030",
+    "category": "RIDDLE",
+    "question": "What can fill a room but takes up no space?",
+    "options": ["Air", "Light", "Sound", "Dust"],
+    "answer_index": 1,
+    "explanation": "Light fills every corner and weighs nothing."
+  },
+  {
+    "id": "riddle-031",
+    "category": "RIDDLE",
+    "question": "What has a ring but no finger?",
+    "options": ["A boxer", "A telephone", "A tree", "A bell"],
+    "answer_index": 1,
+    "explanation": "A phone rings — no jewelry required."
+  },
+  {
+    "id": "riddle-032",
+    "category": "RIDDLE",
+    "question": "What word is spelled wrong in every dictionary?",
+    "options": ["Misspelled", "Wrong", "Dictionary", "Error"],
+    "answer_index": 1,
+    "explanation": "The word 'wrong' is literally spelled W-R-O-N-G."
+  },
+  {
+    "id": "riddle-033",
+    "category": "RIDDLE",
+    "question": "What building has the most stories?",
+    "options": ["A skyscraper", "A library", "A hotel", "A museum"],
+    "answer_index": 1,
+    "explanation": "A library holds thousands of stories on every shelf."
+  },
+  {
+    "id": "riddle-034",
+    "category": "RIDDLE",
+    "question": "What has a head at night but loses it in the morning?",
+    "options": ["A dreamer", "A pillow", "The moon", "A match"],
+    "answer_index": 1,
+    "explanation": "Your head rests on the pillow at night — the pillow keeps it."
+  },
+  {
+    "id": "riddle-035",
+    "category": "RIDDLE",
+    "question": "What gets sharper the more you use it?",
+    "options": ["A knife", "Your brain", "A pencil", "A wit"],
+    "answer_index": 1,
+    "explanation": "Use your brain more — it only gets sharper."
+  },
+  {
+    "id": "riddle-036",
+    "category": "RIDDLE",
+    "question": "I have branches but no fruit, trunk, or leaves. What am I?",
+    "options": ["A bank", "A tree", "A road", "A family"],
+    "answer_index": 0,
+    "explanation": "A bank has branches — and lots of interest instead."
+  },
+  {
+    "id": "riddle-037",
+    "category": "RIDDLE",
+    "question": "What is so fragile that saying its name breaks it?",
+    "options": ["Glass", "Silence", "A heart", "Trust"],
+    "answer_index": 1,
+    "explanation": "Say 'silence' out loud — and it's gone."
+  },
+  {
+    "id": "riddle-038",
+    "category": "RIDDLE",
+    "question": "What can you break without touching it?",
+    "options": ["Glass", "A promise", "A record", "A heart"],
+    "answer_index": 1,
+    "explanation": "You can break a promise without lifting a finger."
+  },
+  {
+    "id": "riddle-039",
+    "category": "RIDDLE",
+    "question": "What has four wheels and flies?",
+    "options": ["An airplane", "A garbage truck", "A race car", "A drone"],
+    "answer_index": 1,
+    "explanation": "A garbage truck has flies buzzing around it!"
+  },
+  {
+    "id": "riddle-040",
+    "category": "RIDDLE",
+    "question": "What invention lets you look right through a wall?",
+    "options": ["X-rays", "A window", "A camera", "A drill"],
+    "answer_index": 1,
+    "explanation": "A window — the oldest wall-see-through tech."
+  },
+  {
+    "id": "riddle-041",
+    "category": "RIDDLE",
+    "question": "What goes up and down but stays in the same place?",
+    "options": ["An elevator", "A staircase", "The temperature", "A seesaw"],
+    "answer_index": 1,
+    "explanation": "Stairs go up and down — and never move an inch."
+  },
+  {
+    "id": "riddle-042",
+    "category": "RIDDLE",
+    "question": "What has an eye but cannot see and helps you sew?",
+    "options": ["A needle", "A tailor", "A button", "A thimble"],
+    "answer_index": 0,
+    "explanation": "The needle's eye holds the thread — blind as can be."
+  },
+  {
+    "id": "riddle-043",
+    "category": "RIDDLE",
+    "question": "If you drop me, I'm sure to crack. Smile at me and I smile back. What am I?",
+    "options": ["An egg", "A mirror", "A phone", "A joke"],
+    "answer_index": 1,
+    "explanation": "A mirror cracks when dropped and smiles back at you."
+  },
+  {
+    "id": "riddle-044",
+    "category": "RIDDLE",
+    "question": "What has a bottom at the top?",
+    "options": ["A mountain", "Your legs", "A bottle upside down", "A barrel"],
+    "answer_index": 1,
+    "explanation": "Your legs — their bottom is at the top. Literally."
+  },
+  {
+    "id": "riddle-045",
+    "category": "RIDDLE",
+    "question": "What comes down but never goes up?",
+    "options": ["Snow", "Rain", "Night", "Prices"],
+    "answer_index": 1,
+    "explanation": "Rain falls down — it only 'goes back' as invisible vapor."
+  },
+  {
+    "id": "riddle-046",
+    "category": "RIDDLE",
+    "question": "What has words but never speaks?",
+    "options": ["A mime", "A book", "A phone", "A letter"],
+    "answer_index": 1,
+    "explanation": "A book is full of words and stays silent — until you read."
+  },
+  {
+    "id": "riddle-047",
+    "category": "RIDDLE",
+    "question": "What can you hold in your left hand but never in your right?",
+    "options": ["A secret", "Your right elbow", "A left glove", "Your phone"],
+    "answer_index": 1,
+    "explanation": "Try grabbing your right elbow with your right hand. Can't!"
+  },
+  {
+    "id": "riddle-048",
+    "category": "RIDDLE",
+    "question": "What has a spine but no bones?",
+    "options": ["A snake", "A book", "A cactus", "A fish"],
+    "answer_index": 1,
+    "explanation": "A book's spine holds it together — no skeleton needed."
+  },
+  {
+    "id": "riddle-049",
+    "category": "RIDDLE",
+    "question": "What kind of band never plays music?",
+    "options": ["A boy band", "A rubber band", "A wedding band", "A jazz band"],
+    "answer_index": 1,
+    "explanation": "A rubber band just holds things — terrible at concerts."
+  },
+  {
+    "id": "riddle-050",
+    "category": "RIDDLE",
+    "question": "What has 88 keys but can't open a single door?",
+    "options": ["A keyboard", "A piano", "A janitor's ring", "A map"],
+    "answer_index": 1,
+    "explanation": "88 piano keys — not one opens a lock."
+  },
+  {
+    "id": "riddle-051",
+    "category": "RIDDLE",
+    "question": "What can you find in the middle of nowhere?",
+    "options": ["Nothing", "The letter H", "A desert", "Yourself"],
+    "answer_index": 1,
+    "explanation": "N-O-W-H-E-R-E — H is smack in the middle."
+  },
+  {
+    "id": "riddle-052",
+    "category": "RIDDLE",
+    "question": "What gets wetter as it dries?",
+    "options": ["A towel", "A cloud", "A mop", "Rain"],
+    "answer_index": 0,
+    "explanation": "The towel dries you by getting wet itself."
+  },
+  {
+    "id": "riddle-053",
+    "category": "RIDDLE",
+    "question": "What has a mouth bigger than its head?",
+    "options": ["A whale", "A cave", "A braggart", "A cave entrance"],
+    "answer_index": 1,
+    "explanation": "A cave's mouth opens wide — its 'head' is the hill."
+  },
+  {
+    "id": "riddle-054",
+    "category": "RIDDLE",
+    "question": "I shave every day but my beard stays the same. What am I?",
+    "options": ["A wizard", "A barber", "A teenager", "A statue"],
+    "answer_index": 1,
+    "explanation": "A barber shaves others daily — his beard never changes."
+  },
+  {
+    "id": "riddle-055",
+    "category": "RIDDLE",
+    "question": "What has a tail and a head but no legs?",
+    "options": ["A kite", "A coin", "A comet", "All of them"],
+    "answer_index": 3,
+    "explanation": "Kites, coins, and comets — tails and heads, zero legs."
+  },
+  {
+    "id": "riddle-056",
+    "category": "RIDDLE",
+    "question": "What question can you never answer 'yes' to?",
+    "options": ["Are you alive?", "Are you asleep?", "Can you talk?", "Are you sure?"],
+    "answer_index": 1,
+    "explanation": "If you're asleep, you can't answer at all!"
+  },
+  {
+    "id": "riddle-057",
+    "category": "RIDDLE",
+    "question": "What goes up when the rain comes down?",
+    "options": ["The temperature", "An umbrella", "A flood", "The clouds"],
+    "answer_index": 1,
+    "explanation": "Rain falls, umbrellas pop up everywhere."
+  },
+  {
+    "id": "riddle-058",
+    "category": "RIDDLE",
+    "question": "What kind of room has no doors or windows?",
+    "options": ["A mushroom", "A vault", "A courtroom", "A bathroom"],
+    "answer_index": 0,
+    "explanation": "A mush-ROOM — the only room you can eat."
+  },
+  {
+    "id": "riddle-059",
+    "category": "RIDDLE",
+    "question": "What is black when it's clean and white when it's dirty?",
+    "options": ["A shoe", "A blackboard", "A penguin", "A chess board"],
+    "answer_index": 1,
+    "explanation": "A clean blackboard is black — chalk marks make it white."
+  },
+  {
+    "id": "riddle-060",
+    "category": "RIDDLE",
+    "question": "What has lots of eyes but never cries?",
+    "options": ["A potato", "A monster", "A pineapple", "A storm"],
+    "answer_index": 0,
+    "explanation": "A potato is covered in eyes — and never sheds a tear."
+  },
+  {
+    "id": "riddle-061",
+    "category": "RIDDLE",
+    "question": "I follow you everywhere but disappear in the dark. What am I?",
+    "options": ["A friend", "Your shadow", "A spy", "Your reflection"],
+    "answer_index": 1,
+    "explanation": "Your shadow follows you — until the lights go out."
+  },
+  {
+    "id": "riddle-062",
+    "category": "RIDDLE",
+    "question": "What has a head, a foot, and four legs but isn't alive?",
+    "options": ["A table", "A bed", "A chair", "A sofa"],
+    "answer_index": 1,
+    "explanation": "A bed has a headboard, footboard, and legs — no pulse."
+  },
+  {
+    "id": "riddle-063",
+    "category": "RIDDLE",
+    "question": "What can you serve but never eat?",
+    "options": ["Soup", "A tennis ball", "Justice", "A notice"],
+    "answer_index": 1,
+    "explanation": "You serve a tennis ball — please don't eat it."
+  },
+  {
+    "id": "riddle-064",
+    "category": "RIDDLE",
+    "question": "What kind of tree can you carry in your hand?",
+    "options": ["A bonsai", "A palm", "A seedling", "A family tree"],
+    "answer_index": 1,
+    "explanation": "A palm — it's already in your hand."
+  },
+  {
+    "id": "riddle-065",
+    "category": "RIDDLE",
+    "question": "What has ears but cannot hear?",
+    "options": ["A cornfield", "A rabbit statue", "A wall", "A pot"],
+    "answer_index": 0,
+    "explanation": "Corn has ears — but it's all ears and no hearing."
+  },
+  {
+    "id": "riddle-066",
+    "category": "RIDDLE",
+    "question": "The person who makes it doesn't want it. The person who buys it doesn't need it. The person who uses it doesn't know it. What is it?",
+    "options": ["A gift", "A coffin", "A loan", "A secret"],
+    "answer_index": 1,
+    "explanation": "A coffin — maker doesn't want it, buyer doesn't need it, user doesn't know."
+  },
+  {
+    "id": "riddle-067",
+    "category": "RIDDLE",
+    "question": "What can you hold without ever touching?",
+    "options": ["A grudge", "A breath", "A conversation", "All of them"],
+    "answer_index": 3,
+    "explanation": "Grudges, breaths, and conversations — held without hands."
+  },
+  {
+    "id": "riddle-068",
+    "category": "RIDDLE",
+    "question": "What has two legs in the morning, four in the afternoon... wait that's backwards! What crawls on four, walks on two, then three?",
+    "options": ["A dog", "A human", "A robot", "A cat"],
+    "answer_index": 1,
+    "explanation": "The classic Sphinx riddle: baby crawls, adult walks, elder uses a cane."
+  },
+  {
+    "id": "riddle-069",
+    "category": "RIDDLE",
+    "question": "What is cut on a table but never eaten?",
+    "options": ["A cake", "A deck of cards", "A vegetable", "Paper"],
+    "answer_index": 1,
+    "explanation": "You cut the deck — but cards are terrible to chew."
+  },
+  {
+    "id": "riddle-070",
+    "category": "RIDDLE",
+    "question": "What can run but has no feet, roars but has no mouth?",
+    "options": ["A lion", "An engine", "A river", "The wind"],
+    "answer_index": 1,
+    "explanation": "An engine runs and roars — feet and mouth sold separately."
+  },
+  {
+    "id": "riddle-071",
+    "category": "RIDDLE",
+    "question": "What has a bark but no bite?",
+    "options": ["A dog", "A tree", "A guard", "A drill sergeant"],
+    "answer_index": 1,
+    "explanation": "Trees are all bark — and they never bite."
+  },
+  {
+    "id": "riddle-072",
+    "category": "RIDDLE",
+    "question": "What gets shorter as it gets older?",
+    "options": ["A candle", "A pencil", "Memory", "Both A and B"],
+    "answer_index": 3,
+    "explanation": "Candles burn down and pencils wear down — age shrinks them."
+  },
+  {
+    "id": "riddle-073",
+    "category": "RIDDLE",
+    "question": "What kind of lion never roars?",
+    "options": ["A sea lion", "A dandelion", "A cub", "A statue"],
+    "answer_index": 1,
+    "explanation": "A dan-de-LION — the only lion that's a flower."
+  },
+  {
+    "id": "riddle-074",
+    "category": "RIDDLE",
+    "question": "What can you catch but not see?",
+    "options": ["A cold", "A butterfly", "A fish", "A ball"],
+    "answer_index": 0,
+    "explanation": "You catch a cold — an invisible little troublemaker."
+  },
+  {
+    "id": "riddle-075",
+    "category": "RIDDLE",
+    "question": "What has a heart of gold?",
+    "options": ["A statue", "A kind person", "A coin", "A robot"],
+    "answer_index": 1,
+    "explanation": "A kind person — the only heart of gold that beats."
+  },
+  {
+    "id": "riddle-076",
+    "category": "RIDDLE",
+    "question": "What kind of apple isn't an apple?",
+    "options": ["A pineapple", "A crabapple", "A bad apple", "Apple pie"],
+    "answer_index": 0,
+    "explanation": "A pineapple — not a pine, not an apple, still delicious."
+  },
+  {
+    "id": "riddle-077",
+    "category": "RIDDLE",
+    "question": "I have a tail and a head, but I'm not alive and spend my life in pockets. What am I?",
+    "options": ["A coin", "A mouse toy", "A key", "Lint"],
+    "answer_index": 0,
+    "explanation": "Heads and tails — the coin spends life in your pocket."
+  },
+  {
+    "id": "riddle-078",
+    "category": "RIDDLE",
+    "question": "What becomes white when it's dirty?",
+    "options": ["Snow", "A blackboard", "A chalkboard", "A shirt"],
+    "answer_index": 1,
+    "explanation": "Write chalk on a clean blackboard — dirt makes it white."
+  },
+  {
+    "id": "riddle-079",
+    "category": "RIDDLE",
+    "question": "What has one voice but speaks in four directions?",
+    "options": ["A compass", "An echo", "The wind", "A crossroads"],
+    "answer_index": 2,
+    "explanation": "The wind speaks north, south, east, and west — one voice."
+  },
+  {
+    "id": "riddle-080",
+    "category": "RIDDLE",
+    "question": "What can you put in a bucket to make it lighter?",
+    "options": ["Helium", "A hole", "Feathers", "Nothing"],
+    "answer_index": 1,
+    "explanation": "Put a hole in the bucket — everything leaks out, lighter!"
+  },
+  {
+    "id": "riddle-081",
+    "category": "RIDDLE",
+    "question": "What begins with T, ends with T, and is full of T?",
+    "options": ["A teapot", "A tent", "A tablet", "A treat"],
+    "answer_index": 0,
+    "explanation": "A T-pot starts and ends with T — and holds tea inside."
+  },
+  {
+    "id": "riddle-082",
+    "category": "RIDDLE",
+    "question": "What has a neck but no head, two arms but no hands?",
+    "options": ["A shirt", "A bottle", "A chair", "A river"],
+    "answer_index": 0,
+    "explanation": "A shirt has a neck hole and sleeves — no body inside."
+  },
+  {
+    "id": "riddle-083",
+    "category": "RIDDLE",
+    "question": "What flies without wings?",
+    "options": ["Time", "A kite", "A rumor", "All of them"],
+    "answer_index": 3,
+    "explanation": "Time flies, kites fly on strings, rumors fly fastest."
+  },
+  {
+    "id": "riddle-084",
+    "category": "RIDDLE",
+    "question": "What is always coming but never arrives?",
+    "options": ["Tomorrow", "The bus", "A letter", "Friday"],
+    "answer_index": 0,
+    "explanation": "Tomorrow is always coming — when it arrives, it's today."
+  },
+  {
+    "id": "riddle-085",
+    "category": "RIDDLE",
+    "question": "What has a foot on each side and one in the middle?",
+    "options": ["A yardstick", "A tripod", "A centipede", "A fence"],
+    "answer_index": 0,
+    "explanation": "A yardstick: three feet — one on each end? No, side by side."
+  },
+  {
+    "id": "riddle-086",
+    "category": "RIDDLE",
+    "question": "What can you catch but never keep?",
+    "options": ["A fish", "A wave", "Attention", "The flu"],
+    "answer_index": 1,
+    "explanation": "Catch a wave — it slips right through your fingers."
+  },
+  {
+    "id": "riddle-087",
+    "category": "RIDDLE",
+    "question": "What kind of nail grows on your hand but isn't on your finger?",
+    "options": ["A toenail", "A thorn", "A hangnail", "A palm"],
+    "answer_index": 2,
+    "explanation": "A hangnail — the annoying edge next to your nail."
+  },
+  {
+    "id": "riddle-088",
+    "category": "RIDDLE",
+    "question": "What has a bed but never sleeps, a mouth but never eats?",
+    "options": ["A river", "A baby", "A truck", "A dog"],
+    "answer_index": 0,
+    "explanation": "A riverbed and a river mouth — no sleeping or eating."
+  },
+  {
+    "id": "riddle-089",
+    "category": "RIDDLE",
+    "question": "What word becomes shorter when you add two letters to it?",
+    "options": ["Long", "Short", "Small", "Tiny"],
+    "answer_index": 1,
+    "explanation": "Short + e + r = shorter. Word magic."
+  },
+  {
+    "id": "riddle-090",
+    "category": "RIDDLE",
+    "question": "What kind of cheese is made backwards?",
+    "options": ["Cheddar", "Edam", "Mozzarella", "Swiss"],
+    "answer_index": 1,
+    "explanation": "Edam is 'made' spelled backwards!"
+  },
+  {
+    "id": "riddle-091",
+    "category": "RIDDLE",
+    "question": "What has a tongue but cannot talk, and runs but cannot walk?",
+    "options": ["A shoe", "A river", "A bell", "A dog"],
+    "answer_index": 0,
+    "explanation": "A shoe has a tongue and 'runs' — on your feet."
+  },
+  {
+    "id": "riddle-092",
+    "category": "RIDDLE",
+    "question": "What kind of table has no legs?",
+    "options": ["A timetable", "A nightstand", "A picnic table", "A desk"],
+    "answer_index": 0,
+    "explanation": "A timetable lists schedules — legless furniture."
+  },
+  {
+    "id": "riddle-093",
+    "category": "RIDDLE",
+    "question": "What can you see once in a year, twice in a week, and never in a day?",
+    "options": ["The letter E", "A holiday", "The moon", "Payday"],
+    "answer_index": 0,
+    "explanation": "Y-ear has one E, w-EE-k has two, 'day' has none."
+  },
+  {
+    "id": "riddle-094",
+    "category": "RIDDLE",
+    "question": "What has keys, space, and enter, but isn't a room?",
+    "options": ["A house", "A keyboard", "A map", "A piano"],
+    "answer_index": 1,
+    "explanation": "A keyboard has Key, Space, and Enter — no walls at all."
+  },
+  {
+    "id": "riddle-095",
+    "category": "RIDDLE",
+    "question": "What can you throw but not catch?",
+    "options": ["A ball", "A party", "A fit", "Both B and C"],
+    "answer_index": 3,
+    "explanation": "Throw a party or throw a fit — nothing to catch back."
+  },
+  {
+    "id": "riddle-096",
+    "category": "RIDDLE",
+    "question": "What is made of water but if you put it in water it dies?",
+    "options": ["An ice cube", "A sponge", "A wave", "A snowman"],
+    "answer_index": 0,
+    "explanation": "An ice cube is water — but melts and 'dies' in water."
+  },
+  {
+    "id": "riddle-097",
+    "category": "RIDDLE",
+    "question": "I go in hard, come out soft, and you blow me hard. What am I?",
+    "options": ["Gum", "Bread", "A whistle", "A balloon"],
+    "answer_index": 0,
+    "explanation": "Gum goes in hard, softens up, and blows bubbles."
+  },
+  {
+    "id": "riddle-098",
+    "category": "RIDDLE",
+    "question": "What has a face but no eyes, hands but no arms?",
+    "options": ["A portrait", "A clock", "A statue", "A doll"],
+    "answer_index": 1,
+    "explanation": "Clocks: face, hands — eyes and arms not included."
+  },
+  {
+    "id": "riddle-099",
+    "category": "RIDDLE",
+    "question": "What is the longest word in the dictionary?",
+    "options": ["Antidisestablishment", "Smiles", "Supercalifragilistic", "Pneumonoultramicroscopic"],
+    "answer_index": 1,
+    "explanation": "Smiles — there's a whole mile between the two S's!"
+  },
+  {
+    "id": "riddle-100",
+    "category": "RIDDLE",
+    "question": "What five-letter word becomes shorter when you add two letters?",
+    "options": ["Short", "Small", "Brief", "Tiny"],
+    "answer_index": 0,
+    "explanation": "Short is five letters; add 'er' — it's shorter."
+  },
+  {
+    "id": "riddle-101",
+    "category": "RIDDLE",
+    "question": "What can you hold in your right hand but never in your left?",
+    "options": ["A secret", "Your left hand", "A right glove", "Your phone"],
+    "answer_index": 1,
+    "explanation": "Try it — your left hand can't hold itself."
+  },
+  {
+    "id": "riddle-102",
+    "category": "RIDDLE",
+    "question": "What runs all day but never gets tired?",
+    "options": ["A marathoner", "A clock", "A river", "Your nose"],
+    "answer_index": 1,
+    "explanation": "The clock runs 24/7 and never needs a break."
+  },
+  {
+    "id": "riddle-103",
+    "category": "RIDDLE",
+    "question": "What has pages but isn't a book, and can crash but isn't a car?",
+    "options": ["A website", "A newspaper", "A calendar", "A diary"],
+    "answer_index": 0,
+    "explanation": "A web page crashes — and you can't paper-cut yourself."
+  },
+  {
+    "id": "riddle-104",
+    "category": "RIDDLE",
+    "question": "What is easy to get into but hard to get out of?",
+    "options": ["A pool", "Trouble", "A car", "A maze"],
+    "answer_index": 1,
+    "explanation": "Trouble: easy in, famously hard out."
+  },
+  {
+    "id": "riddle-105",
+    "category": "RIDDLE",
+    "question": "What has a crown but isn't a king, a root but isn't a plant?",
+    "options": ["A tooth", "A mountain", "A bottle", "A coin"],
+    "answer_index": 0,
+    "explanation": "A tooth has a crown on top and a root below."
+  },
+  {
+    "id": "riddle-106",
+    "category": "RIDDLE",
+    "question": "What kind of dog has no tail?",
+    "options": ["A hot dog", "A bulldog", "A puppy", "A corgi"],
+    "answer_index": 0,
+    "explanation": "A hot dog — no tail, but great with mustard."
+  },
+  {
+    "id": "riddle-107",
+    "category": "RIDDLE",
+    "question": "What is full of holes yet strong as steel?",
+    "options": ["A net", "A sponge", "A chain-link fence", "Swiss cheese"],
+    "answer_index": 0,
+    "explanation": "A net is full of holes and holds tons of fish."
+  },
+  {
+    "id": "riddle-108",
+    "category": "RIDDLE",
+    "question": "What can you share but still keep all of it?",
+    "options": ["Money", "Knowledge", "Food", "A secret"],
+    "answer_index": 1,
+    "explanation": "Share knowledge — you still know everything you knew."
+  },
+  {
+    "id": "riddle-109",
+    "category": "RIDDLE",
+    "question": "What has a big mouth but never speaks, and dies when you feed it?",
+    "options": ["A fire", "A volcano", "A river", "A cave"],
+    "answer_index": 0,
+    "explanation": "A fire 'eats' fuel — pour water on it and it dies."
+  },
+  {
+    "id": "riddle-110",
+    "category": "RIDDLE",
+    "question": "What letter of the alphabet is a body of water?",
+    "options": ["B", "C", "D", "P"],
+    "answer_index": 1,
+    "explanation": "C — pronounced like 'sea'!"
+  },
+  {
+    "id": "riddle-111",
+    "category": "RIDDLE",
+    "question": "What letter is a question?",
+    "options": ["Q", "Y", "U", "R"],
+    "answer_index": 1,
+    "explanation": "Y — it literally sounds like 'why?'"
+  },
+  {
+    "id": "riddle-112",
+    "category": "RIDDLE",
+    "question": "What letter is a drink?",
+    "options": ["T", "G", "K", "B"],
+    "answer_index": 0,
+    "explanation": "T — sounds exactly like 'tea'."
+  },
+  {
+    "id": "riddle-113",
+    "category": "RIDDLE",
+    "question": "What letter is an insect?",
+    "options": ["A", "B", "D", "Z"],
+    "answer_index": 1,
+    "explanation": "B — just like 'bee'!"
+  },
+  {
+    "id": "riddle-114",
+    "category": "RIDDLE",
+    "question": "What has one head, one foot, and four legs?",
+    "options": ["A monster", "A bed", "A table", "A horse"],
+    "answer_index": 1,
+    "explanation": "A bed: headboard, footboard, four legs — sleeps well."
+  },
+  {
+    "id": "riddle-115",
+    "category": "RIDDLE",
+    "question": "What starts with P, ends with E, and has thousands of letters?",
+    "options": ["A post office", "A page", "A phrase", "A puzzle"],
+    "answer_index": 0,
+    "explanation": "A post office starts with P, ends with E — full of letters!"
+  },
+  {
+    "id": "riddle-116",
+    "category": "RIDDLE",
+    "question": "What is taken before you can get it?",
+    "options": ["A photo", "Your time", "A test", "Your breath"],
+    "answer_index": 0,
+    "explanation": "Your picture is taken — before you get to see it."
+  },
+  {
+    "id": "riddle-117",
+    "category": "RIDDLE",
+    "question": "What kind of bow can't be tied?",
+    "options": ["A rainbow", "A bowtie", "A crossbow", "A hairbow"],
+    "answer_index": 0,
+    "explanation": "A rainbow — beautiful, colorful, totally untieable."
+  },
+  {
+    "id": "riddle-118",
+    "category": "RIDDLE",
+    "question": "What goes up a chimney down but can't go down a chimney up?",
+    "options": ["Santa", "An umbrella", "Smoke", "A bird"],
+    "answer_index": 1,
+    "explanation": "An umbrella fits down closed — but open it won't go up!"
+  },
+  {
+    "id": "riddle-119",
+    "category": "RIDDLE",
+    "question": "What is weightless but you can see it, and if you put it in a barrel the barrel gets lighter?",
+    "options": ["Air", "A hole", "Light", "A ghost"],
+    "answer_index": 1,
+    "explanation": "A hole weighs nothing — and a barrel with one leaks lighter."
+  },
+  {
+    "id": "riddle-120",
+    "category": "RIDDLE",
+    "question": "What kind of ship has two mates but no captain?",
+    "options": ["A friendship", "A pirate ship", "A spaceship", "A battleship"],
+    "answer_index": 0,
+    "explanation": "A friend-SHIP has two mates — and no captain at all."
+  },
+  {
+    "id": "riddle-121",
+    "category": "RIDDLE",
+    "question": "What has to be broken before you can use it?",
+    "options": ["A code", "An egg", "A seal", "All of them"],
+    "answer_index": 3,
+    "explanation": "Crack an egg, crack a code, break a seal — all true."
+  },
+  {
+    "id": "riddle-122",
+    "category": "RIDDLE",
+    "question": "What goes up and down stairs without moving?",
+    "options": ["A ghost", "A carpet", "A railing", "A shadow"],
+    "answer_index": 1,
+    "explanation": "The carpet runs up and down the stairs — and never moves."
+  },
+  {
+    "id": "riddle-123",
+    "category": "RIDDLE",
+    "question": "What kind of cup can't hold water?",
+    "options": ["A buttercup", "A paper cup", "A teacup", "A measuring cup"],
+    "answer_index": 0,
+    "explanation": "A buttercup is a flower — zero water capacity."
+  },
+  {
+    "id": "riddle-124",
+    "category": "RIDDLE",
+    "question": "I can sizzle like bacon, I'm made with an egg, I have plenty of backbone but lack a good leg. What am I?",
+    "options": ["A snake", "A lizard", "A fish", "A dragon"],
+    "answer_index": 0,
+    "explanation": "A snake: sizzles (hisses), from an egg, spine but no legs."
+  },
+  {
+    "id": "riddle-125",
+    "category": "RIDDLE",
+    "question": "What occurs once in every minute, twice in every moment, yet never in a hundred thousand years?",
+    "options": ["The letter M", "A miracle", "Midnight", "An eclipse"],
+    "answer_index": 0,
+    "explanation": "M-inute ×1, M-o-M-ent ×2, hundred thousand years ×0."
+  },
+  {
+    "id": "riddle-126",
+    "category": "RIDDLE",
+    "question": "What has a hundred limbs but cannot walk?",
+    "options": ["A centipede", "A tree", "An octopus", "A spider"],
+    "answer_index": 1,
+    "explanation": "A tree's limbs are branches — firmly rooted."
+  },
+  {
+    "id": "riddle-127",
+    "category": "RIDDLE",
+    "question": "What is deaf, dumb, and blind, yet always tells the truth?",
+    "options": ["A mirror", "A book", "A clock", "A photograph"],
+    "answer_index": 0,
+    "explanation": "A mirror shows only truth — sees, hears, says nothing."
+  },
+  {
+    "id": "riddle-128",
+    "category": "RIDDLE",
+    "question": "What has a soul but no body?",
+    "options": ["A ghost", "A shoe", "Music", "A book"],
+    "answer_index": 1,
+    "explanation": "A shoe has a sole — get it? Sole!"
+  },
+  {
+    "id": "wordplay-005",
+    "category": "WORDPLAY",
+    "question": "What word has three consecutive double letters?",
+    "options": ["Bookkeeper", "Balloon", "Letter", "Mississippi"],
+    "answer_index": 0,
+    "explanation": "B-OO-KK-EE-per — three double letters in a row!"
+  },
+  {
+    "id": "wordplay-006",
+    "category": "WORDPLAY",
+    "question": "What 7-letter word has hundreds of letters in it?",
+    "options": ["Mailbox", "Alphabet", "Letters", "Postbox"],
+    "answer_index": 0,
+    "explanation": "M-A-I-L-B-O-X is 7 letters and holds hundreds more."
+  },
+  {
+    "id": "wordplay-007",
+    "category": "WORDPLAY",
+    "question": "What English word has all 5 vowels in order?",
+    "options": ["Facetious", "Education", "Beautiful", "Sequoia"],
+    "answer_index": 0,
+    "explanation": "F-A-C-E-T-I-O-U-S — A, E, I, O, U in perfect order."
+  },
+  {
+    "id": "wordplay-008",
+    "category": "WORDPLAY",
+    "question": "What is the only word that looks the same upside down?",
+    "options": ["MOM", "WOW", "SWIMS", "All three!"],
+    "answer_index": 3,
+    "explanation": "MOM, WOW, and SWIMS all survive a flip."
+  },
+  {
+    "id": "wordplay-009",
+    "category": "WORDPLAY",
+    "question": "What word of five letters has only one left when two are removed?",
+    "options": ["Stone", "Alone", "Phone", "Money"],
+    "answer_index": 0,
+    "explanation": "Remove S and T from 'stone' — 'one' remains!"
+  },
+  {
+    "id": "wordplay-010",
+    "category": "WORDPLAY",
+    "question": "What starts with E, ends with E, but only has one letter in it?",
+    "options": ["Eve", "Envelope", "Eye", "Eagle"],
+    "answer_index": 1,
+    "explanation": "An envelope starts and ends with E — and holds one letter."
+  },
+  {
+    "id": "wordplay-011",
+    "category": "WORDPLAY",
+    "question": "What word is pronounced the same after removing 4 of its 5 letters?",
+    "options": ["Queue", "Aitch", "Kneel", "Ghost"],
+    "answer_index": 0,
+    "explanation": "Queue minus U-E-U-E is just Q — still sounds identical."
+  },
+  {
+    "id": "wordplay-012",
+    "category": "WORDPLAY",
+    "question": "Which month has 28 days?",
+    "options": ["February", "Only leap years", "All of them", "None"],
+    "answer_index": 2,
+    "explanation": "Every month has at least 28 days — trick question!"
+  },
+  {
+    "id": "wordplay-013",
+    "category": "WORDPLAY",
+    "question": "What is at the end of a rainbow?",
+    "options": ["Gold", "The letter W", "A leprechaun", "A pot"],
+    "answer_index": 1,
+    "explanation": "Rainbo-W — W is literally at the end."
+  },
+  {
+    "id": "wordplay-014",
+    "category": "WORDPLAY",
+    "question": "What comes once in June, once in July, and twice in August?",
+    "options": ["The letter U", "Summer", "A holiday", "Rain"],
+    "answer_index": 0,
+    "explanation": "J-U-ne, J-U-ly, A-U-g-U-st — count the U's."
+  },
+  {
+    "id": "wordplay-015",
+    "category": "WORDPLAY",
+    "question": "What 4-letter word can be written forward, backward, or upside down and still be read left to right?",
+    "options": ["NOON", "MOM", "WOW", "DEED"],
+    "answer_index": 0,
+    "explanation": "NOON reads the same every direction you flip it."
+  },
+  {
+    "id": "wordplay-016",
+    "category": "WORDPLAY",
+    "question": "What letter is a vegetable?",
+    "options": ["P", "C", "T", "K"],
+    "answer_index": 0,
+    "explanation": "P — sounds exactly like 'pea'!"
+  },
+  {
+    "id": "wordplay-017",
+    "category": "WORDPLAY",
+    "question": "What word contains 26 letters but only three syllables?",
+    "options": ["Alphabet", "Antidisestablishment", "Mississippi", "Supercalifragilistic"],
+    "answer_index": 0,
+    "explanation": "Alphabet — 26 letters inside, three syllables to say."
+  },
+  {
+    "id": "wordplay-018",
+    "category": "WORDPLAY",
+    "question": "What word looks the same backwards and upside down?",
+    "options": ["SWIMS", "MOM", "NOON", "SIS"],
+    "answer_index": 0,
+    "explanation": "SWIMS — flip it any way and it stays SWIMS."
+  },
+  {
+    "id": "wordplay-019",
+    "category": "WORDPLAY",
+    "question": "What has 13 hearts but no other organs?",
+    "options": ["A hospital", "A deck of cards", "A monster", "A football team"],
+    "answer_index": 1,
+    "explanation": "A deck has 13 hearts — plus clubs, diamonds, spades."
+  },
+  {
+    "id": "wordplay-020",
+    "category": "WORDPLAY",
+    "question": "What is the center of gravity?",
+    "options": ["Earth's core", "The letter V", "Mass", "Space"],
+    "answer_index": 1,
+    "explanation": "G-R-A-V-I-T-Y — V sits dead center."
+  },
+  {
+    "id": "wordplay-021",
+    "category": "WORDPLAY",
+    "question": "What day of the year do pirates love?",
+    "options": ["Septembarrr 19", "Arrpril 1", "May 4", "Octobarrr 31"],
+    "answer_index": 0,
+    "explanation": "Talk Like a Pirate Day — September 19. Arrr!"
+  },
+  {
+    "id": "wordplay-022",
+    "category": "WORDPLAY",
+    "question": "What is black, white, and read all over?",
+    "options": ["A newspaper", "A penguin", "A zebra", "A book"],
+    "answer_index": 0,
+    "explanation": "A newspaper — black, white, and READ all over."
+  },
+  {
+    "id": "wordplay-023",
+    "category": "WORDPLAY",
+    "question": "What ten-letter word starts with gas?",
+    "options": ["Automobile", "Gasoline", "Gastronomy", "An 'automobile'"],
+    "answer_index": 0,
+    "explanation": "Automobile — 10 letters, literally starts with 'gas' pun? No — it runs on gas... starts with A-U-T-O!"
+  },
+  {
+    "id": "wordplay-024",
+    "category": "WORDPLAY",
+    "question": "What has a ring but plays no music?",
+    "options": ["A tree", "A phone", "Saturn", "All of them"],
+    "answer_index": 3,
+    "explanation": "Tree rings, phone rings, Saturn's rings — silent all."
+  }
+]
