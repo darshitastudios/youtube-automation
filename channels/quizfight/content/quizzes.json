@@ -523,5 +523,2630 @@
       "सुपरस्टार",
       "डॉन"
     ]
+  },
+  {
+    "id": "hi-026",
+    "category": "PAHELI",
+    "question": "ऐसी क्या चीज़ है जो देते ही जाती है, पर कभी वापस नहीं आती?",
+    "question_rom": "Aisi kya cheez hai jo dete hi jaati hai, par kabhi wapas nahi aati?",
+    "options": [
+      "Paisa",
+      "Waqt",
+      "Pyaar",
+      "Umar"
+    ],
+    "options_dev": [
+      "पैसा",
+      "वक़्त",
+      "प्यार",
+      "उम्र"
+    ],
+    "answer_index": 1,
+    "explanation": "वक़्त एक बार चला गया तो वापस नहीं आता।",
+    "explanation_rom": "Waqt ek baar chala gaya to wapas nahi aata."
+  },
+  {
+    "id": "hi-027",
+    "category": "PAHELI",
+    "question": "वो क्या है जो तुम्हारा है, पर बाकी लोग तुमसे ज़्यादा इस्तेमाल करते हैं?",
+    "question_rom": "Wo kya hai jo tumhara hai, par baaki log tumse zyada istemaal karte hain?",
+    "options": [
+      "Tumhara naam",
+      "Tumhara phone",
+      "Tumhara ghar",
+      "Tumhare kapde"
+    ],
+    "options_dev": [
+      "तुम्हारा नाम",
+      "तुम्हारा फ़ोन",
+      "तुम्हारा घर",
+      "तुम्हारे कपड़े"
+    ],
+    "answer_index": 0,
+    "explanation": "नाम तुम्हारा है पर दूसरे लोग ही उसे ज़्यादा बोलते हैं।",
+    "explanation_rom": "Naam tumhara hai par doosre log hi use zyada bolte hain."
+  },
+  {
+    "id": "hi-028",
+    "category": "PAHELI",
+    "question": "कौन सा कमरा है जिसमें कोई नहीं घुस सकता?",
+    "question_rom": "Kaun sa kamra hai jismein koi nahi ghus sakta?",
+    "options": [
+      "Bathroom",
+      "Mushroom",
+      "Bedroom",
+      "Darkroom"
+    ],
+    "options_dev": [
+      "बाथरूम",
+      "मशरूम",
+      "बेडरूम",
+      "डार्करूम"
+    ],
+    "answer_index": 1,
+    "explanation": "मशरूम एक कमरा नहीं, एक फंगस है।",
+    "explanation_rom": "Mushroom ek kamra nahi, ek fungus hai."
+  },
+  {
+    "id": "hi-029",
+    "category": "PAHELI",
+    "question": "जितना ज़्यादा लो, उतना ही बड़ा होता जाता है — वो क्या है?",
+    "question_rom": "Jitna zyada lo, utna hi bada hota jaata hai — wo kya hai?",
+    "options": [
+      "Gaddha",
+      "Karza",
+      "Jaal",
+      "Pahaad"
+    ],
+    "options_dev": [
+      "गड्ढा",
+      "क़र्ज़ा",
+      "जाल",
+      "पहाड़"
+    ],
+    "answer_index": 0,
+    "explanation": "गड्ढा खोदो, जितना मिट्टी निकालो उतना बड़ा होता है।",
+    "explanation_rom": "Gaddha khodo, jitna mitti nikalo utna bada hota hai."
+  },
+  {
+    "id": "hi-030",
+    "category": "PAHELI",
+    "question": "वो क्या है जो बिना पंखों के उड़ता है और बिना आंखों के रुलाता है?",
+    "question_rom": "Wo kya hai jo bina pankhon ke udta hai aur bina aankhon ke rulata hai?",
+    "options": [
+      "Baadal",
+      "Hawa",
+      "Dhuwan",
+      "Makhi"
+    ],
+    "options_dev": [
+      "बादल",
+      "हवा",
+      "धुआं",
+      "मक्खी"
+    ],
+    "answer_index": 0,
+    "explanation": "बादल उड़ता भी है और बारिश से रुलाता भी है।",
+    "explanation_rom": "Baadal udta bhi hai aur baarish se rulata bhi hai."
+  },
+  {
+    "id": "hi-031",
+    "category": "PAHELI",
+    "question": "कौन सी चीज़ आगे बढ़ती है पर कभी पीछे नहीं आती?",
+    "question_rom": "Kaun si cheez aage badhti hai par kabhi peeche nahi aati?",
+    "options": [
+      "Gaadi",
+      "Umar",
+      "Nadi",
+      "Hawa"
+    ],
+    "options_dev": [
+      "गाड़ी",
+      "उम्र",
+      "नदी",
+      "हवा"
+    ],
+    "answer_index": 1,
+    "explanation": "उम्र सिर्फ़ बढ़ती है, कभी घटती नहीं।",
+    "explanation_rom": "Umar sirf badhti hai, kabhi ghatti nahi."
+  },
+  {
+    "id": "hi-032",
+    "category": "PAHELI",
+    "question": "वो क्या है जो सवाल पूछता है पर कभी जवाब नहीं देता?",
+    "question_rom": "Wo kya hai jo sawaal poochta hai par kabhi jawab nahi deta?",
+    "options": [
+      "Teacher",
+      "Telephone",
+      "Ghadi",
+      "Kitaab"
+    ],
+    "options_dev": [
+      "टीचर",
+      "टेलीफ़ोन",
+      "घड़ी",
+      "किताब"
+    ],
+    "answer_index": 2,
+    "explanation": "घड़ी हमेशा 'what time' पूछवाती है पर खुद कुछ नहीं बोलती।",
+    "explanation_rom": "Ghadi hamesha time batati hai par khud kuch nahi bolti."
+  },
+  {
+    "id": "hi-033",
+    "category": "PAHELI",
+    "question": "क्या है जो कटता नहीं, फटता नहीं, फिर भी सिल जाता है?",
+    "question_rom": "Kya hai jo katta nahi, fatta nahi, phir bhi sil jaata hai?",
+    "options": [
+      "Kapda",
+      "Kagaz",
+      "Rumaal",
+      "Dimag"
+    ],
+    "options_dev": [
+      "कपड़ा",
+      "काग़ज़",
+      "रुमाल",
+      "दिमाग़"
+    ],
+    "answer_index": 3,
+    "explanation": "'दिमाग़ सिल गया' — सोच ख़त्म हो गया।",
+    "explanation_rom": "'Dimag sil gaya' — soch khatam ho gayi."
+  },
+  {
+    "id": "hi-034",
+    "category": "PAHELI",
+    "question": "कौन सा घर है जिसमें दरवाज़ा नहीं होता?",
+    "question_rom": "Kaun sa ghar hai jismein darwaza nahi hota?",
+    "options": [
+      "Anda",
+      "Makan",
+      "Tent",
+      "Igloo"
+    ],
+    "options_dev": [
+      "अंडा",
+      "मकान",
+      "टेंट",
+      "इग्लू"
+    ],
+    "answer_index": 0,
+    "explanation": "अंडे का घर — कोई दरवाज़ा नहीं होता।",
+    "explanation_rom": "Ande ka ghar — koi darwaza nahi hota."
+  },
+  {
+    "id": "hi-035",
+    "category": "PAHELI",
+    "question": "वो क्या है जो तोड़ने पर आवाज़ नहीं करता?",
+    "question_rom": "Wo kya hai jo todne par aawaaz nahi karta?",
+    "options": [
+      "Glass",
+      "Dil",
+      "Kursi",
+      "Phone"
+    ],
+    "options_dev": [
+      "ग्लास",
+      "दिल",
+      "कुर्सी",
+      "फ़ोन"
+    ],
+    "answer_index": 1,
+    "explanation": "दिल टूटने की आवाज़ किसी को नहीं सुनाई देती।",
+    "explanation_rom": "Dil tootne ki aawaaz kisi ko nahi sunai deti."
+  },
+  {
+    "id": "hi-036",
+    "category": "PAHELI",
+    "question": "ऐसा कौन सा ताला है जिसे कोई चाबी नहीं खोल सकती?",
+    "question_rom": "Aisa kaun sa taala hai jise koi chaabi nahi khol sakti?",
+    "options": [
+      "Gol taala",
+      "Octopus",
+      "Saap",
+      "Khajoor"
+    ],
+    "options_dev": [
+      "गोल ताला",
+      "ऑक्टोपस",
+      "सांप",
+      "खजूर"
+    ],
+    "answer_index": 1,
+    "explanation": "Octopus — 'taala' सुनने में आता है पर चाबी नहीं खोलती।",
+    "explanation_rom": "Octopus — 'taala' sunne me aata hai par chaabi nahi kholti."
+  },
+  {
+    "id": "hi-037",
+    "category": "PAHELI",
+    "question": "वो क्या है जो खाली हो तो हल्का और भरा हो तो भी पी सकते हो?",
+    "question_rom": "Wo kya hai jo khali ho to halka aur bhara ho to bhi pee sakte ho?",
+    "options": [
+      "Glass",
+      "Dimaag",
+      "Kitaab",
+      "Khaali shabd"
+    ],
+    "options_dev": [
+      "ग्लास",
+      "दिमाग़",
+      "किताब",
+      "ख़ाली शब्द"
+    ],
+    "answer_index": 0,
+    "explanation": "ग्लास खाली हो तो हल्का, भरा हो तो पानी पी लो।",
+    "explanation_rom": "Glass khali ho to halka, bhara ho to paani pee lo."
+  },
+  {
+    "id": "hi-038",
+    "category": "PAHELI",
+    "question": "कौन सी चीज़ सिर उठाए बिना चलती है?",
+    "question_rom": "Kaun si cheez sir uthaye bina chalti hai?",
+    "options": [
+      "Nadi",
+      "Gaadi",
+      "Saap",
+      "Train"
+    ],
+    "options_dev": [
+      "नदी",
+      "गाड़ी",
+      "सांप",
+      "ट्रेन"
+    ],
+    "answer_index": 0,
+    "explanation": "नदी बहती है — सिर नहीं होता फिर भी चलती है।",
+    "explanation_rom": "Nadi behti hai — sir nahi hota phir bhi chalti hai."
+  },
+  {
+    "id": "hi-039",
+    "category": "PAHELI",
+    "question": "ऐसा कौन सा पेड़ है जिसे हाथ से खा सकते हो?",
+    "question_rom": "Aisa kaun sa ped hai jise haath se kha sakte ho?",
+    "options": [
+      "Khajoor ka ped",
+      "Aam ka ped",
+      "Neem ka ped",
+      "Nariyal ka ped"
+    ],
+    "options_dev": [
+      "खजूर का पेड़",
+      "आम का पेड़",
+      "नीम का पेड़",
+      "नारियल का पेड़"
+    ],
+    "answer_index": 0,
+    "explanation": "खजूर खा सकते हो — 'ped' yahan double meaning है।",
+    "explanation_rom": "Khajoor kha sakte ho — 'ped' double meaning hai."
+  },
+  {
+    "id": "hi-040",
+    "category": "PAHELI",
+    "question": "वो क्या है जो जितना सूखता है उतना गीला करता है?",
+    "question_rom": "Wo kya hai jo jitna sookhta hai utna geela karta hai?",
+    "options": [
+      "Towel",
+      "Safeda",
+      "Kitaab",
+      "Jhaadu"
+    ],
+    "options_dev": [
+      "टॉवेल",
+      "सफ़ेदा",
+      "किताब",
+      "झाड़ू"
+    ],
+    "answer_index": 0,
+    "explanation": "टॉवेल खुद गीला होता है और तुम्हें सुखाता है।",
+    "explanation_rom": "Towel khud geela hota hai aur tumhe sukhata hai."
+  },
+  {
+    "id": "hi-041",
+    "category": "PAHELI",
+    "question": "कौन सी चीज़ एक बार तोड़ दो तो वापस जोड़ नहीं सकते?",
+    "question_rom": "Kaun si cheez ek baar tod do to wapas jod nahi sakte?",
+    "options": [
+      "Anda",
+      "Kursi",
+      "Toy",
+      "Remote"
+    ],
+    "options_dev": [
+      "अंडा",
+      "कुर्सी",
+      "खिलौना",
+      "रिमोट"
+    ],
+    "answer_index": 0,
+    "explanation": "अंडा तोड़ा तो वापस नहीं जुड़ता।",
+    "explanation_rom": "Anda toda to wapas nahi judta."
+  },
+  {
+    "id": "hi-042",
+    "category": "PAHELI",
+    "question": "ऐसा कौन सा सेव है जिसे सेब नहीं कहते?",
+    "question_rom": "Aisa kaun sa sev hai jise seb nahi kehte?",
+    "options": [
+      "Sachin",
+      "Ganapati",
+      "Sevai",
+      "Vermicelli"
+    ],
+    "options_dev": [
+      "सचिन",
+      "गणपति",
+      "सेवई",
+      "वर्मीसेली"
+    ],
+    "answer_index": 0,
+    "explanation": "सेव/सेब की चाल — सचिन 'Sev' से शुरू होता है।",
+    "explanation_rom": "Sev/seb ki chaal — Sachin 'Sev' se shuru hota hai."
+  },
+  {
+    "id": "hi-043",
+    "category": "PAHELI",
+    "question": "वो क्या है जो ऊपर जाता है पर नीचे कभी नहीं आता?",
+    "question_rom": "Wo kya hai jo upar jaata hai par neeche kabhi nahi aata?",
+    "options": [
+      "Umar",
+      "Balloon",
+      "Rocket",
+      "Sabzi ka daam"
+    ],
+    "options_dev": [
+      "उम्र",
+      "गुब्बारा",
+      "रॉकेट",
+      "सब्ज़ी का दाम"
+    ],
+    "answer_index": 0,
+    "explanation": "उम्र सिर्फ़ ऊपर जाती है।",
+    "explanation_rom": "Umar sirf upar jaati hai."
+  },
+  {
+    "id": "hi-044",
+    "category": "PAHELI",
+    "question": "कौन सा घड़ा है जो रोज़ दो बार सही बताता है?",
+    "question_rom": "Kaun sa ghada hai jo roz do baar sahi batata hai?",
+    "options": [
+      "Bipda wali ghadi",
+      "Ruki hui ghadi",
+      "Digital ghadi",
+      "Matka"
+    ],
+    "options_dev": [
+      "बिगड़ी घड़ी",
+      "रुकी हुई घड़ी",
+      "डिजिटल घड़ी",
+      "मटका"
+    ],
+    "answer_index": 1,
+    "explanation": "रुकी हुई घड़ी दिन में दो बार सही समय दिखाती है।",
+    "explanation_rom": "Ruki hui ghadi din me do baar sahi samay dikhati hai."
+  },
+  {
+    "id": "hi-045",
+    "category": "PAHELI",
+    "question": "वो कौन है जो सबका सर खाता है?",
+    "question_rom": "Wo kaun hai jo sabka sar khata hai?",
+    "options": [
+      "Gadha",
+      "Kida",
+      "Taklu aadmi",
+      "Chai"
+    ],
+    "options_dev": [
+      "गधा",
+      "कीड़ा",
+      "तकला आदमी",
+      "चाय"
+    ],
+    "answer_index": 2,
+    "explanation": "तकले का सर कोई नहीं खाता — सिवाय कीड़े जो बाल खाते हैं।",
+    "explanation_rom": "Takle ka sar koi nahi khata — wordplay paheli."
+  },
+  {
+    "id": "hi-046",
+    "category": "PAHELI",
+    "question": "ऐसी कौन सी चीज़ है जो देने से पहले लेनी पड़ती है?",
+    "question_rom": "Aisi kaun si cheez hai jo dene se pehle leni padti hai?",
+    "options": [
+      "Rishwat",
+      "Shiksha",
+      "Naseehat",
+      "Vote"
+    ],
+    "options_dev": [
+      "रिश्वत",
+      "शिक्षा",
+      "नसीहत",
+      "वोट"
+    ],
+    "answer_index": 0,
+    "explanation": "रिश्वत 'देने' से पहले 'लेनी' पड़ती है — ironic paheli।",
+    "explanation_rom": "Rishwat dene se pehle leni padti hai — ironic."
+  },
+  {
+    "id": "hi-047",
+    "category": "PAHELI",
+    "question": "वो क्या है जो सुबह चार पैरों पर, दोपहर दो पर, शाम तीन पर चलता है?",
+    "question_rom": "Wo kya hai jo subah chaar pairon par, dopahar do par, shaam teen par chalta hai?",
+    "options": [
+      "Insaan",
+      "Kutta",
+      "Bandar",
+      "Robot"
+    ],
+    "options_dev": [
+      "इंसान",
+      "कुत्ता",
+      "बंदर",
+      "रोबोट"
+    ],
+    "answer_index": 0,
+    "explanation": "बचपन में रेंगता, जवानी में दो पैर, बुढ़ापे में छड़ी।",
+    "explanation_rom": "Bachpan-crawl, jawani-2 pair, budhape-chhadi."
+  },
+  {
+    "id": "hi-048",
+    "category": "PAHELI",
+    "question": "ऐसा कौन सा रिश्ता है जो पानी से भी गहरा होता है?",
+    "question_rom": "Aisa kaun sa rishta hai jo paani se bhi gehra hota hai?",
+    "options": [
+      "Maa ka pyaar",
+      "Dost ka",
+      "Bhai ka",
+      "Padosi ka"
+    ],
+    "options_dev": [
+      "माँ का प्यार",
+      "दोस्त का",
+      "भाई का",
+      "पड़ोसी का"
+    ],
+    "answer_index": 0,
+    "explanation": "माँ का प्यार सबसे गहरा माना जाता है।",
+    "explanation_rom": "Maa ka pyaar sabse gehra mana jaata hai."
+  },
+  {
+    "id": "hi-049",
+    "category": "PAHELI",
+    "question": "वो क्या है जो नीचे से खाली और ऊपर से सुनहरा होता है?",
+    "question_rom": "Wo kya hai jo neeche se khaali aur upar se sunahra hota hai?",
+    "options": [
+      "Diya",
+      "Magar machh",
+      "Sonu",
+      "Gubbara"
+    ],
+    "options_dev": [
+      "दीया",
+      "मगरमच्छ",
+      "सोनू",
+      "गुब्बारा"
+    ],
+    "answer_index": 0,
+    "explanation": "दीया नीचे से खोखला, ऊपर सुनहरी लौ।",
+    "explanation_rom": "Diya neeche se khokhla, upar sunehri lau."
+  },
+  {
+    "id": "hi-050",
+    "category": "PAHELI",
+    "question": "ऐसी कौन सी चीज़ है जो मुँह है पर बोल नहीं सकती, आँखें हैं पर देख नहीं सकती?",
+    "question_rom": "Aisi kaun si cheez hai jo munh hai par bol nahi sakti, aankhein hain par dekh nahi sakti?",
+    "options": [
+      "Aloo",
+      "Nariyal",
+      "Kitaab",
+      "Ghada"
+    ],
+    "options_dev": [
+      "आलू",
+      "नारियल",
+      "किताब",
+      "घड़ा"
+    ],
+    "answer_index": 1,
+    "explanation": "नारियल के तीन आँखें और एक मुँह होता है पर बोल नहीं सकता।",
+    "explanation_rom": "Nariyal ke teen aankhein aur munh hota hai par bol nahi sakta."
+  },
+  {
+    "id": "hi-051",
+    "category": "BOLLYWOOD",
+    "question": "'मोगेम्बो खुश हुआ' — यह डायलॉग किस मूवी का है?",
+    "question_rom": "'Mogambo khush hua' — yeh dialogue kis movie ka hai?",
+    "options": [
+      "Sholay",
+      "Mr. India",
+      "Don",
+      "Agneepath"
+    ],
+    "options_dev": [
+      "शोले",
+      "मि. इंडिया",
+      "डॉन",
+      "अग्निपथ"
+    ],
+    "answer_index": 1,
+    "explanation": "अमरीश पुरी ने Mr. India में Mogambo का रोल किया।",
+    "explanation_rom": "Amrish Puri ne Mr. India me Mogambo ka role kiya."
+  },
+  {
+    "id": "hi-052",
+    "category": "BOLLYWOOD",
+    "question": "'बड़े बड़े देशों में ऐसी छोटी छोटी बातें होती रहती हैं' — किस मूवी की लाइन है?",
+    "question_rom": "'Bade bade deshon me aisi chhoti chhoti baatein hoti rehti hain' — kis movie ki line hai?",
+    "options": [
+      "DDLJ",
+      "Kuch Kuch Hota Hai",
+      "Dil To Pagal Hai",
+      "Pardes"
+    ],
+    "options_dev": [
+      "डीडीएलजे",
+      "कुछ कुछ होता है",
+      "दिल तो पागल है",
+      "परदेस"
+    ],
+    "answer_index": 0,
+    "explanation": "DDLJ (1995) में शाहरुख़ ने यह लाइन बोली।",
+    "explanation_rom": "DDLJ me Shah Rukh ne yeh line boli."
+  },
+  {
+    "id": "hi-053",
+    "category": "BOLLYWOOD",
+    "question": "3 Idiots में रांचो का असली नाम क्या था?",
+    "question_rom": "3 Idiots me Rancho ka asli naam kya tha?",
+    "options": [
+      "रांचोदडस चांचड",
+      "फुनसुख वांगडू",
+      "राजीव रस्तोगी",
+      "फरहान कुरैशी"
+    ],
+    "options_dev": [
+      "रांचोदडस चांचड",
+      "फुनसुख वांगडू",
+      "राजीव रस्तोगी",
+      "फरहान कुरैशी"
+    ],
+    "answer_index": 1,
+    "explanation": "रांचो असल में Phunsukh Wangdu था — लद्दाख़ का साइंटिस्ट।",
+    "explanation_rom": "Rancho asal me Phunsukh Wangdu tha — Ladakh ka scientist."
+  },
+  {
+    "id": "hi-054",
+    "category": "BOLLYWOOD",
+    "question": "'कैसे बताऊं किस तरा जिया' — ग़ज़नी में आमिर ख़ान ने किस एक्ट्रेस के साथ काम किया?",
+    "question_rom": "Ghajini me Aamir Khan ne kis actress ke saath kaam kiya?",
+    "options": [
+      "Asin",
+      "Genelia",
+      "Katrina",
+      "Deepika"
+    ],
+    "options_dev": [
+      "असिन",
+      "जेनेलिया",
+      "कटरीना",
+      "दीपिका"
+    ],
+    "answer_index": 0,
+    "explanation": "Ghajini (2008) में Aamir के साथ Asin थीं।",
+    "explanation_rom": "Ghajini me Aamir ke saath Asin thi."
+  },
+  {
+    "id": "hi-055",
+    "category": "BOLLYWOOD",
+    "question": "'रिस्ते में तो हम तुम्हारे बाप लगते हैं' — यह लाइन किस मूवी में है?",
+    "question_rom": "'Rishte me to hum tumhare baap lagte hain' — yeh line kis movie me hai?",
+    "options": [
+      "Deewar",
+      "Sholay",
+      "Zanjeer",
+      "Don"
+    ],
+    "options_dev": [
+      "दीवार",
+      "शोले",
+      "ज़ंजीर",
+      "डॉन"
+    ],
+    "answer_index": 0,
+    "explanation": "Deewar (1975) का मशहूर डायलॉग।",
+    "explanation_rom": "Deewar ka mashhoor dialogue."
+  },
+  {
+    "id": "hi-056",
+    "category": "BOLLYWOOD",
+    "question": "Sholay में गब्बर सिंह का रोल किसने किया?",
+    "question_rom": "Sholay me Gabbar Singh ka role kisne kiya?",
+    "options": [
+      "Amjad Khan",
+      "Amrish Puri",
+      "Danny",
+      "Pran"
+    ],
+    "options_dev": [
+      "अमजद ख़ान",
+      "अमरीश पुरी",
+      "डैनी",
+      "प्राण"
+    ],
+    "answer_index": 0,
+    "explanation": "अमजद ख़ान ने गब्बर सिंह बनाया — इतिहास का सबसे फेमस विलेन।",
+    "explanation_rom": "Amjad Khan ne Gabbar banaya — history ka sabse famous villain."
+  },
+  {
+    "id": "hi-057",
+    "category": "BOLLYWOOD",
+    "question": "'पुश्पा झुकेगा नहीं' — Pushpa का असली नाम क्या है फिल्म में?",
+    "question_rom": "Pushpa me Pushpa ka asli naam kya hai film me?",
+    "options": [
+      "Pushpa Raj",
+      "Pushpa Kumar",
+      "Pushpa Narayan",
+      "Pushpa Swamy"
+    ],
+    "options_dev": [
+      "पुष्पा राज",
+      "पुष्पा कुमार",
+      "पुष्पा नारायण",
+      "पुष्पा स्वामी"
+    ],
+    "answer_index": 0,
+    "explanation": "Pushpa Raj — Allu Arjun का किरदार।",
+    "explanation_rom": "Pushpa Raj — Allu Arjun ka kirdar."
+  },
+  {
+    "id": "hi-058",
+    "category": "BOLLYWOOD",
+    "question": "'दोस्ती का एक उसूल है मैडम — नो सॉरी, नो थैंक यू' — किस मूवी से?",
+    "question_rom": "'Dosti ka ek usool hai madam — no sorry, no thank you' — kis movie se?",
+    "options": [
+      "Maine Pyar Kiya",
+      "Hum Aapke Hain Koun",
+      "Saajan",
+      "Hum Saath Saath Hain"
+    ],
+    "options_dev": [
+      "मैंने प्यार किया",
+      "हम आपके हैं कौन",
+      "साजन",
+      "हम साथ साथ हैं"
+    ],
+    "answer_index": 0,
+    "explanation": "Maine Pyar Kiya (1989) — सलमान का डेब्यू हिट।",
+    "explanation_rom": "Maine Pyar Kiya — Salman ka debut hit."
+  },
+  {
+    "id": "hi-059",
+    "category": "BOLLYWOOD",
+    "question": "'Don ko pakadna mushkil hi nahi, namumkin hai' — यह लाइन कौन बोलता है?",
+    "question_rom": "'Don ko pakadna mushkil hi nahi, namumkin hai' — yeh line kaun bolta hai?",
+    "options": [
+      "Vijay",
+      "Don",
+      "Inspector",
+      "Roma"
+    ],
+    "options_dev": [
+      "विजय",
+      "डॉन",
+      "इंस्पेक्टर",
+      "रोमा"
+    ],
+    "answer_index": 1,
+    "explanation": "ख़ुद Don यह लाइन बोलता है — Amitabh (1978) फिर SRK (2006)।",
+    "explanation_rom": "Khud Don bolta hai — Amitabh aur phir SRK."
+  },
+  {
+    "id": "hi-060",
+    "category": "BOLLYWOOD",
+    "question": "Lagaan में भुवन का रोल किसने किया?",
+    "question_rom": "Lagaan me Bhuvan ka role kisne kiya?",
+    "options": [
+      "Aamir Khan",
+      "Salman Khan",
+      "Shah Rukh",
+      "Ajay Devgn"
+    ],
+    "options_dev": [
+      "आमिर ख़ान",
+      "सलमान ख़ान",
+      "शाहरुख़",
+      "अजय देवगन"
+    ],
+    "answer_index": 0,
+    "explanation": "Aamir Khan — Lagaan (2001) ऑस्कर में नॉमिनेट हुई।",
+    "explanation_rom": "Aamir Khan — Lagaan Oscar me nominate hui."
+  },
+  {
+    "id": "hi-061",
+    "category": "BOLLYWOOD",
+    "question": "'All is well' — यह कैचफ्रेज़ किस मूवी का है?",
+    "question_rom": "'All is well' — yeh catchphrase kis movie ka hai?",
+    "options": [
+      "3 Idiots",
+      "PK",
+      "Munna Bhai MBBS",
+      "Chhichhore"
+    ],
+    "options_dev": [
+      "3 इडियट्स",
+      "पीके",
+      "मुन्नाभाई",
+      "छिछोरे"
+    ],
+    "answer_index": 0,
+    "explanation": "3 Idiots में Rancho का मशहूर 'Aal izz well'।",
+    "explanation_rom": "3 Idiots ka 'Aal izz well'."
+  },
+  {
+    "id": "hi-062",
+    "category": "BOLLYWOOD",
+    "question": "KGF में रॉकी का रोल किसने किया?",
+    "question_rom": "KGF me Rocky ka role kisne kiya?",
+    "options": [
+      "Yash",
+      "Prabhas",
+      "Ram Charan",
+      "Jr NTR"
+    ],
+    "options_dev": [
+      "यश",
+      "प्रभास",
+      "राम चरण",
+      "जूनियर एनटीआर"
+    ],
+    "answer_index": 0,
+    "explanation": "Yash ने Rocky Bhai बनाया — कन्नड़ सिनेमा का सबसे बड़ा हिट।",
+    "explanation_rom": "Yash ne Rocky Bhai banaya."
+  },
+  {
+    "id": "hi-063",
+    "category": "BOLLYWOOD",
+    "question": "'राहुल, नाम तो सुना होगा?' — यह स्टाइल किस एक्टर की है?",
+    "question_rom": "'Rahul, naam to suna hoga?' — yeh style kis actor ki hai?",
+    "options": [
+      "Shah Rukh",
+      "Salman",
+      "Aamir",
+      "Saif"
+    ],
+    "options_dev": [
+      "शाहरुख़",
+      "सलमान",
+      "आमिर",
+      "सैफ़"
+    ],
+    "answer_index": 0,
+    "explanation": "Shah Rukh ने कई मूवीज़ में 'Rahul' रोल किया।",
+    "explanation_rom": "Shah Rukh ne kai movies me Rahul role kiya."
+  },
+  {
+    "id": "hi-064",
+    "category": "BOLLYWOOD",
+    "question": "Bahubali में 'कटप्पा ने बाहुबली को क्यों मारा' — कटप्पा का रोल किसने किया?",
+    "question_rom": "Bahubali me Kattappa ka role kisne kiya?",
+    "options": [
+      "Sathyaraj",
+      "Prakash Raj",
+      "Nassar",
+      "Prabhas"
+    ],
+    "options_dev": [
+      "सत्यराज",
+      "प्रकाश राज",
+      "नासर",
+      "प्रभास"
+    ],
+    "answer_index": 0,
+    "explanation": "Sathyaraj ने Kattappa का किरदार निभाया।",
+    "explanation_rom": "Sathyaraj ne Kattappa ka kirdar nibhaya."
+  },
+  {
+    "id": "hi-065",
+    "category": "BOLLYWOOD",
+    "question": "'बबुआ' किस मूवी में सलमान ख़ान का प्यार का नाम था?",
+    "question_rom": "'Babua' kis movie me Salman Khan ka pyaar ka naam tha?",
+    "options": [
+      "Hum Aapke Hain Koun",
+      "Dabangg",
+      "Bajrangi Bhaijaan",
+      "Ready"
+    ],
+    "options_dev": [
+      "हम आपके हैं कौन",
+      "दबंग",
+      "बजरंगी भाईजान",
+      "रेडी"
+    ],
+    "answer_index": 0,
+    "explanation": "HAHK में Madhuri सलमान को 'Babua' कहती थीं।",
+    "explanation_rom": "HAHK me Madhuri Salman ko 'Babua' kehti thi."
+  },
+  {
+    "id": "hi-066",
+    "category": "BOLLYWOOD",
+    "question": "'झाँसी की रानी' के रूप में मणिकर्णिका में कौन थी?",
+    "question_rom": "Manikarnika me Jhansi ki Rani ka role kisne kiya?",
+    "options": [
+      "Kangana Ranaut",
+      "Deepika",
+      "Priyanka",
+      "Anushka"
+    ],
+    "options_dev": [
+      "कंगना रनौत",
+      "दीपिका",
+      "प्रियंका",
+      "अनुष्का"
+    ],
+    "answer_index": 0,
+    "explanation": "Kangana Ranaut ने Rani Laxmibai बनीं।",
+    "explanation_rom": "Kangana Ranaut ne Rani Laxmibai bani."
+  },
+  {
+    "id": "hi-067",
+    "category": "BOLLYWOOD",
+    "question": "'हवा हवाई' गाना किस मूवी से है?",
+    "question_rom": "'Hawa Hawai' gaana kis movie se hai?",
+    "options": [
+      "Mr. India",
+      "Tezaab",
+      "Karma",
+      "Ram Lakhan"
+    ],
+    "options_dev": [
+      "मि. इंडिया",
+      "तेज़ाब",
+      "कर्मा",
+      "राम लखन"
+    ],
+    "answer_index": 0,
+    "explanation": "Mr. India में श्रीदेवी का हिट गाना।",
+    "explanation_rom": "Mr. India me Sridevi ka hit gaana."
+  },
+  {
+    "id": "hi-068",
+    "category": "BOLLYWOOD",
+    "question": "'जय सिंह राठौड़' का किरदार किस मूवी में है?",
+    "question_rom": "'Jay Singh Rathod' ka kirdar kis movie me hai?",
+    "options": [
+      "Gadar",
+      "Border",
+      "LOC Kargil",
+      "Tango Charlie"
+    ],
+    "options_dev": [
+      "गदर",
+      "बॉर्डर",
+      "एलओसी करगिल",
+      "टैंगो चार्ली"
+    ],
+    "answer_index": 0,
+    "explanation": "Gadar में Sunny Deol का रोल — तारा सिंह के बेटे।",
+    "explanation_rom": "Gadar me Sunny Deol ka role."
+  },
+  {
+    "id": "hi-069",
+    "category": "BOLLYWOOD",
+    "question": "PK में आमिर ख़ान क्या खोज रहे थे?",
+    "question_rom": "PK me Aamir Khan kya khoj rahe the?",
+    "options": [
+      "Uski remote",
+      "Uski gaadi",
+      "Uski family",
+      "Uska planet"
+    ],
+    "options_dev": [
+      "उसकी रिमोट",
+      "उसकी गाड़ी",
+      "उसकी फ़ैमिली",
+      "उसका प्लैनेट"
+    ],
+    "answer_index": 0,
+    "explanation": "PK अपनी 'remote' खोजता है जिससे वो अपने ग्रह वापस जा सके।",
+    "explanation_rom": "PK apni remote khojta hai."
+  },
+  {
+    "id": "hi-070",
+    "category": "BOLLYWOOD",
+    "question": "Dangal में गीता-बबीता के पिता का रोल किसने किया?",
+    "question_rom": "Dangal me Geeta-Babita ke pita ka role kisne kiya?",
+    "options": [
+      "Aamir Khan",
+      "Sakshi Tanwar",
+      "Virender Sehwag",
+      "Zaira Wasim"
+    ],
+    "options_dev": [
+      "आमिर ख़ान",
+      "साक्षी तंवर",
+      "वीरेंद्र सहवाग",
+      "ज़ायरा वसीम"
+    ],
+    "answer_index": 0,
+    "explanation": "Aamir Khan — Mahavir Singh Phogat।",
+    "explanation_rom": "Aamir Khan — Mahavir Singh Phogat."
+  },
+  {
+    "id": "hi-071",
+    "category": "BOLLYWOOD",
+    "question": "'तुझे देखा तो ये जाना सनम' — DDLJ का यह गाना किसने गाया?",
+    "question_rom": "'Tujhe dekha to ye jaana sanam' — DDLJ ka gaana kisne gaya?",
+    "options": [
+      "Kumar Sanu",
+      "Udit Narayan",
+      "Sonu Nigam",
+      "Abhijeet"
+    ],
+    "options_dev": [
+      "कुमार सानु",
+      "उदित नारायण",
+      "सोनू निगम",
+      "अभिजीत"
+    ],
+    "answer_index": 0,
+    "explanation": "Kumar Sanu — DDLJ का रोमांटिक एंथम।",
+    "explanation_rom": "Kumar Sanu — DDLJ ka romantic anthem."
+  },
+  {
+    "id": "hi-072",
+    "category": "BOLLYWOOD",
+    "question": "'सिंघम' में अजय देवगन किस राज्य का पुलिस ऑफिसर हैं?",
+    "question_rom": "'Singham' me Ajay Devgn kis rajya ka police officer hain?",
+    "options": [
+      "Maharashtra",
+      "Goa",
+      "Gujarat",
+      "UP"
+    ],
+    "options_dev": [
+      "महाराष्ट्र",
+      "गोवा",
+      "गुजरात",
+      "उ.प्र."
+    ],
+    "answer_index": 0,
+    "explanation": "Singham — Maharashtra का बाजीराव सिंघम।",
+    "explanation_rom": "Singham — Maharashtra ka Bajirao Singham."
+  },
+  {
+    "id": "hi-073",
+    "category": "BOLLYWOOD",
+    "question": "'Chikni Chameli' गाना किस मूवी से है?",
+    "question_rom": "'Chikni Chameli' gaana kis movie se hai?",
+    "options": [
+      "Agneepath (2012)",
+      "Bodyguard",
+      "Dabangg 2",
+      "Ek Tha Tiger"
+    ],
+    "options_dev": [
+      "अग्निपथ २०१२",
+      "बॉडीगार्ड",
+      "दबंग २",
+      "एक था टाइगर"
+    ],
+    "answer_index": 0,
+    "explanation": "Agneepath (2012) — Katrina का आइटम नंबर।",
+    "explanation_rom": "Agneepath 2012 — Katrina ka item number."
+  },
+  {
+    "id": "hi-074",
+    "category": "BOLLYWOOD",
+    "question": "RRR में राम और भीम के बीच रियल बॉन्ड क्या है?",
+    "question_rom": "RRR me Ram aur Bheem ke beech real bond kya hai?",
+    "options": [
+      "Dosti",
+      "Dushmani",
+      "Bhai",
+      "Deshbhakti"
+    ],
+    "options_dev": [
+      "दोस्ती",
+      "दुश्मनी",
+      "भाई",
+      "देशभक्ति"
+    ],
+    "answer_index": 3,
+    "explanation": "RRR दोनों की देशभक्ति की कहानी है।",
+    "explanation_rom": "RRR dono ki deshbhakti ki kahani hai."
+  },
+  {
+    "id": "hi-075",
+    "category": "BOLLYWOOD",
+    "question": "'तारे ज़मीन पर' में इशान अवस्थी का रोल किसने किया?",
+    "question_rom": "'Taare Zameen Par' me Ishaan Awasthi ka role kisne kiya?",
+    "options": [
+      "Darsheel Safary",
+      "Zaira Wasim",
+      "Harshaali",
+      "Arhaan Khan"
+    ],
+    "options_dev": [
+      "दर्शील सफ़ारी",
+      "ज़ायरा वसीम",
+      "हरशाली",
+      "अरहान ख़ान"
+    ],
+    "answer_index": 0,
+    "explanation": "Darsheel Safary — डिस्लेक्सिया वाला बच्चा।",
+    "explanation_rom": "Darsheel Safary — dyslexia wala bachcha."
+  },
+  {
+    "id": "hi-076",
+    "category": "CRICKET",
+    "question": "सचिन तेंदुलकर को 'मास्टर ब्लास्टर' के अलावा किस नाम से जाना जाता है?",
+    "question_rom": "Sachin Tendulkar ko 'Master Blaster' ke alawa kis naam se jaana jaata hai?",
+    "options": [
+      "Little Master",
+      "Hitman",
+      "Captain Cool",
+      "God of Off-side"
+    ],
+    "options_dev": [
+      "लिटिल मास्टर",
+      "हिटमैन",
+      "कैप्टन कूल",
+      "गॉड ऑफ ऑफ-साइड"
+    ],
+    "answer_index": 0,
+    "explanation": "Sachin = Little Master, बचपन से ही।",
+    "explanation_rom": "Sachin = Little Master."
+  },
+  {
+    "id": "hi-077",
+    "category": "CRICKET",
+    "question": "एक ओवर में 6 छक्के मारने वाले पहले भारतीय कौन थे?",
+    "question_rom": "Ek over me 6 chhakke maarne wale pehle Bharatiya kaun the?",
+    "options": [
+      "Yuvraj Singh",
+      "MS Dhoni",
+      "Rohit Sharma",
+      "Kapil Dev"
+    ],
+    "options_dev": [
+      "युवराज सिंह",
+      "एमएस धोनी",
+      "रोहित शर्मा",
+      "कपिल देव"
+    ],
+    "answer_index": 0,
+    "explanation": "Yuvraj ने 2007 T20 WC में Stuart Broad पर 6 छक्के लगाए।",
+    "explanation_rom": "Yuvraj ne 2007 T20 WC me Broad par 6 chhakke."
+  },
+  {
+    "id": "hi-078",
+    "category": "CRICKET",
+    "question": "2011 World Cup final में winning six किसने मारा?",
+    "question_rom": "2011 World Cup final me winning six kisne maara?",
+    "options": [
+      "MS Dhoni",
+      "Yuvraj",
+      "Gambhir",
+      "Sachin"
+    ],
+    "options_dev": [
+      "एमएस धोनी",
+      "युवराज",
+      "गंभीर",
+      "सचिन"
+    ],
+    "answer_index": 0,
+    "explanation": "Dhoni ने Wankhede में वो मशहूर छक्का लगाया।",
+    "explanation_rom": "Dhoni ne Wankhede me wo famous chhakka."
+  },
+  {
+    "id": "hi-079",
+    "category": "CRICKET",
+    "question": "'हिटमैन' किसे कहा जाता है?",
+    "question_rom": "'Hitman' kise kaha jaata hai?",
+    "options": [
+      "Rohit Sharma",
+      "Virat Kohli",
+      "Shikhar Dhawan",
+      "Hardik Pandya"
+    ],
+    "options_dev": [
+      "रोहित शर्मा",
+      "विराट कोहली",
+      "शिखर धवन",
+      "हार्दिक पंड्या"
+    ],
+    "answer_index": 0,
+    "explanation": "Rohit Sharma = Hitman, ODI में तीन दोहरे शतक।",
+    "explanation_rom": "Rohit Sharma = Hitman, teen dohre shatak."
+  },
+  {
+    "id": "hi-080",
+    "category": "CRICKET",
+    "question": "ODI में 264 रन का सबसे बड़ा व्यक्तिगत स्कोर किसका है?",
+    "question_rom": "ODI me 264 run ka sabse bada vyaktigat score kiska hai?",
+    "options": [
+      "Rohit Sharma",
+      "Sachin",
+      "Guptill",
+      "Sehwag"
+    ],
+    "options_dev": [
+      "रोहित शर्मा",
+      "सचिन",
+      "गप्टिल",
+      "सहवाग"
+    ],
+    "answer_index": 0,
+    "explanation": "Rohit का 264 — ODI रिकॉर्ड, Sri Lanka के ख़िलाफ़ 2014।",
+    "explanation_rom": "Rohit ka 264 — ODI record, 2014."
+  },
+  {
+    "id": "hi-081",
+    "category": "CRICKET",
+    "question": "'कैप्टन कूल' किसे कहते हैं?",
+    "question_rom": "'Captain Cool' kise kehte hain?",
+    "options": [
+      "MS Dhoni",
+      "Virat",
+      "Rohit",
+      "Kapil Dev"
+    ],
+    "options_dev": [
+      "एमएस धोनी",
+      "विराट",
+      "रोहित",
+      "कपिल देव"
+    ],
+    "answer_index": 0,
+    "explanation": "Dhoni हमेशा कूल रहते हैं — World Cup 2011, T20 2007 दोनों जीते।",
+    "explanation_rom": "Dhoni hamesha cool rehte hain."
+  },
+  {
+    "id": "hi-082",
+    "category": "CRICKET",
+    "question": "IPL में सबसे ज़्यादा 5 titles किस team के हैं?",
+    "question_rom": "IPL me sabse zyada 5 titles kis team ke hain?",
+    "options": [
+      "CSK aur MI",
+      "RCB",
+      "KKR",
+      "RR"
+    ],
+    "options_dev": [
+      "सीएसके और एमआई",
+      "आरसीबी",
+      "केकेआर",
+      "आरआर"
+    ],
+    "answer_index": 0,
+    "explanation": "CSK और MI — दोनों के 5-5 IPL ख़िताब।",
+    "explanation_rom": "CSK aur MI — paanch paanch titles."
+  },
+  {
+    "id": "hi-083",
+    "category": "CRICKET",
+    "question": "1983 World Cup में India किसे हराकर champion बनी?",
+    "question_rom": "1983 World Cup me India kise harakar champion bani?",
+    "options": [
+      "West Indies",
+      "England",
+      "Australia",
+      "Pakistan"
+    ],
+    "options_dev": [
+      "वेस्टइंडीज",
+      "इंग्लैंड",
+      "ऑस्ट्रेलिया",
+      "पाकिस्तान"
+    ],
+    "answer_index": 0,
+    "explanation": "Kapil Dev की team ने West Indies को Lord's में हराया।",
+    "explanation_rom": "Kapil Dev ki team ne WI ko Lord's me haraya."
+  },
+  {
+    "id": "hi-084",
+    "category": "CRICKET",
+    "question": "'ठारा भाई जोगिंदर' — IPL में RCB के सबसे फेमस 'भाई' कौन हैं?",
+    "question_rom": "IPL me RCB ke sabse famous player kaun hain jo 2011 se wahan hain?",
+    "options": [
+      "Virat Kohli",
+      "AB de Villiers",
+      "Chris Gayle",
+      "Faf du Plessis"
+    ],
+    "options_dev": [
+      "विराट कोहली",
+      "एबी डिविलियर्स",
+      "क्रिस गेल",
+      "फ़ाफ डुप्लेसिस"
+    ],
+    "answer_index": 0,
+    "explanation": "Virat 2008 से RCB में हैं — एक ही team.",
+    "explanation_rom": "Virat 2008 se RCB me."
+  },
+  {
+    "id": "hi-085",
+    "category": "CRICKET",
+    "question": "Test में 400* का रिकॉर्ड किसका है?",
+    "question_rom": "Test me 400* ka record kiska hai?",
+    "options": [
+      "Brian Lara",
+      "Sachin",
+      "Lara और Sachin दोनों",
+      "Sehwag"
+    ],
+    "options_dev": [
+      "ब्रायन लारा",
+      "सचिन",
+      "दोनों",
+      "सहवाग"
+    ],
+    "answer_index": 0,
+    "explanation": "Brian Lara 400* — West Indies vs England 2004.",
+    "explanation_rom": "Brian Lara 400* — 2004."
+  },
+  {
+    "id": "hi-086",
+    "category": "CRICKET",
+    "question": "'चिन्नस्वामी स्टेडियम' किस शहर में है?",
+    "question_rom": "'Chinnaswamy Stadium' kis shahar me hai?",
+    "options": [
+      "Bengaluru",
+      "Chennai",
+      "Mumbai",
+      "Delhi"
+    ],
+    "options_dev": [
+      "बेंगलुरु",
+      "चेन्नई",
+      "मुंबई",
+      "दिल्ली"
+    ],
+    "answer_index": 0,
+    "explanation": "RCB का होम — Bengaluru.",
+    "explanation_rom": "RCB ka home — Bengaluru."
+  },
+  {
+    "id": "hi-087",
+    "category": "CRICKET",
+    "question": "एक दिन में सबसे ज़्यादा ODI centuries किसके हैं?",
+    "question_rom": "ODI me sabse zyada centuries kis batsman ke naam hain?",
+    "options": [
+      "Virat Kohli",
+      "Sachin",
+      "Rohit",
+      "Ponting"
+    ],
+    "options_dev": [
+      "विराट कोहली",
+      "सचिन",
+      "रोहित",
+      "पोंटिंग"
+    ],
+    "answer_index": 0,
+    "explanation": "Virat ने Sachin का 49 ODI 100s का रिकॉर्ड तोड़ा।",
+    "explanation_rom": "Virat ne Sachin ka record toda."
+  },
+  {
+    "id": "hi-088",
+    "category": "CRICKET",
+    "question": "'जडू' किस गेंदबाज़ का प्यार का नाम है?",
+    "question_rom": "'Jadu' kis khiladi ka naam hai?",
+    "options": [
+      "Ravindra Jadeja",
+      "Ashwin",
+      "Kuldeep",
+      "Axar"
+    ],
+    "options_dev": [
+      "रविंद्र जडेजा",
+      "अश्विन",
+      "कुलदीप",
+      "अक्षर"
+    ],
+    "answer_index": 0,
+    "explanation": "Jadeja = Jadu — शानदार फील्डर भी।",
+    "explanation_rom": "Jadeja = Jadu."
+  },
+  {
+    "id": "hi-089",
+    "category": "CRICKET",
+    "question": "India का पहला T20 World Cup किसने जिताया?",
+    "question_rom": "India ka pehla T20 World Cup kis captain ne jitaya?",
+    "options": [
+      "MS Dhoni",
+      "Virat",
+      "Rohit",
+      "Kapil Dev"
+    ],
+    "options_dev": [
+      "एमएस धोनी",
+      "विराट",
+      "रोहित",
+      "कपिल देव"
+    ],
+    "answer_index": 0,
+    "explanation": "Dhoni — 2007 T20 World Cup, Pakistan को हराया।",
+    "explanation_rom": "Dhoni — 2007 T20 WC."
+  },
+  {
+    "id": "hi-090",
+    "category": "CRICKET",
+    "question": "ODI में सबसे ज़्यादा रन किसके हैं?",
+    "question_rom": "ODI me sabse zyada run kiske hain?",
+    "options": [
+      "Sachin Tendulkar",
+      "Virat",
+      "Ponting",
+      "Kallis"
+    ],
+    "options_dev": [
+      "सचिन तेंदुलकर",
+      "विराट",
+      "पोंटिंग",
+      "कैलिस"
+    ],
+    "answer_index": 0,
+    "explanation": "Sachin — 18,426 ODI runs.",
+    "explanation_rom": "Sachin — 18,426 ODI runs."
+  },
+  {
+    "id": "hi-091",
+    "category": "CRICKET",
+    "question": "'फ़िनिशर' के रूप में सबसे फेमस भारतीय कौन है?",
+    "question_rom": "'Finisher' ke roop me sabse famous Bharatiya kaun hai?",
+    "options": [
+      "MS Dhoni",
+      "Hardik Pandya",
+      "Rohit",
+      "Yuvraj"
+    ],
+    "options_dev": [
+      "एमएस धोनी",
+      "हार्दिक पंड्या",
+      "रोहित",
+      "युवराज"
+    ],
+    "answer_index": 0,
+    "explanation": "Dhoni = best finisher ever.",
+    "explanation_rom": "Dhoni = best finisher."
+  },
+  {
+    "id": "hi-092",
+    "category": "CRICKET",
+    "question": "IPL में पहला title 2008 में किसने जीता?",
+    "question_rom": "IPL me pehla title 2008 me kisne jeeta?",
+    "options": [
+      "Rajasthan Royals",
+      "CSK",
+      "MI",
+      "DC"
+    ],
+    "options_dev": [
+      "राजस्थान रॉयल्स",
+      "सीएसके",
+      "एमआई",
+      "डीसी"
+    ],
+    "answer_index": 0,
+    "explanation": "Shane Warne की Rajasthan Royals ने पहला IPL जीता।",
+    "explanation_rom": "Warne ki RR ne pehla IPL jeeta."
+  },
+  {
+    "id": "hi-093",
+    "category": "CRICKET",
+    "question": "'विवियन रिचर्ड्स' किस देश के थे?",
+    "question_rom": "'Vivian Richards' kis desh ke the?",
+    "options": [
+      "West Indies",
+      "England",
+      "Australia",
+      "South Africa"
+    ],
+    "options_dev": [
+      "वेस्टइंडीज",
+      "इंग्लैंड",
+      "ऑस्ट्रेलिया",
+      "दक्षिण अफ्रीका"
+    ],
+    "answer_index": 0,
+    "explanation": "Viv Richards — West Indies का दिग्गज बल्लेबाज़।",
+    "explanation_rom": "Viv Richards — West Indies ka legend."
+  },
+  {
+    "id": "hi-094",
+    "category": "CRICKET",
+    "question": "Test cricket में सबसे ज़्यादा wickets किसके हैं?",
+    "question_rom": "Test cricket me sabse zyada wickets kiske hain?",
+    "options": [
+      "Muttiah Muralitharan",
+      "Shane Warne",
+      "Anil Kumble",
+      "James Anderson"
+    ],
+    "options_dev": [
+      "मुथैया मुरलीधरन",
+      "शेन वॉर्न",
+      "अनिल कुंबले",
+      "जेम्स एंडरसन"
+    ],
+    "answer_index": 0,
+    "explanation": "Muralitharan — 800 Test wickets.",
+    "explanation_rom": "Muralitharan — 800 Test wickets."
+  },
+  {
+    "id": "hi-095",
+    "category": "CRICKET",
+    "question": "India ने पहली बार किस देश में Test series जीती?",
+    "question_rom": "India ne pehli baar kis desh me Test series jeeti?",
+    "options": [
+      "England",
+      "Australia",
+      "West Indies",
+      "New Zealand"
+    ],
+    "options_dev": [
+      "इंग्लैंड",
+      "ऑस्ट्रेलिया",
+      "वेस्टइंडीज",
+      "न्यूजीलैंड"
+    ],
+    "answer_index": 0,
+    "explanation": "1971 — India ने England में पहली overseas series जीती।",
+    "explanation_rom": "1971 — pehli overseas series England me."
+  },
+  {
+    "id": "hi-096",
+    "category": "GEOGRAPHY",
+    "question": "भारत का सबसे छोटा राज्य क्षेत्र में कौन सा है?",
+    "question_rom": "Bharat ka sabse chhota rajya area me kaun sa hai?",
+    "options": [
+      "Goa",
+      "Sikkim",
+      "Tripura",
+      "Delhi"
+    ],
+    "options_dev": [
+      "गोवा",
+      "सिक्किम",
+      "त्रिपुरा",
+      "दिल्ली"
+    ],
+    "answer_index": 0,
+    "explanation": "Goa सबसे छोटा राज्य है।",
+    "explanation_rom": "Goa sabse chhota rajya hai."
+  },
+  {
+    "id": "hi-097",
+    "category": "GEOGRAPHY",
+    "question": "दुनिया की सबसे लंबी नदी कौन सी है?",
+    "question_rom": "Duniya ki sabse lambi nadi kaun si hai?",
+    "options": [
+      "Nile",
+      "Amazon",
+      "Ganga",
+      "Yangtze"
+    ],
+    "options_dev": [
+      "नाइल",
+      "अमेज़न",
+      "गंगा",
+      "यांग्त्ज़े"
+    ],
+    "answer_index": 0,
+    "explanation": "नाइल — अफ्रीका, ~6650 km.",
+    "explanation_rom": "Nile — Africa, ~6650 km."
+  },
+  {
+    "id": "hi-098",
+    "category": "GEOGRAPHY",
+    "question": "भारत का राष्ट्रीय पक्षी कौन सा है?",
+    "question_rom": "Bharat ka rashtriya pakshi kaun sa hai?",
+    "options": [
+      "Mor",
+      "Koyal",
+      "Baaz",
+      "Kabootar"
+    ],
+    "options_dev": [
+      "मोर",
+      "कोयल",
+      "बाज़",
+      "कबूतर"
+    ],
+    "answer_index": 0,
+    "explanation": "मोर — peacock, भारत का राष्ट्रीय पक्षी।",
+    "explanation_rom": "Mor — peacock."
+  },
+  {
+    "id": "hi-099",
+    "category": "GEOGRAPHY",
+    "question": "किस राज्य को 'स्पाइस गार्डन ऑफ इंडिया' कहते हैं?",
+    "question_rom": "Kis rajya ko 'Spice Garden of India' kehte hain?",
+    "options": [
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu",
+      "Assam"
+    ],
+    "options_dev": [
+      "केरल",
+      "कर्नाटक",
+      "तमिलनाडु",
+      "असम"
+    ],
+    "answer_index": 0,
+    "explanation": "Kerala — मसालों का राज्य।",
+    "explanation_rom": "Kerala — masalon ka rajya."
+  },
+  {
+    "id": "hi-100",
+    "category": "GEOGRAPHY",
+    "question": "दुनिया का सबसे बड़ा द्वीप कौन सा है?",
+    "question_rom": "Duniya ka sabse bada dweep kaun sa hai?",
+    "options": [
+      "Greenland",
+      "Australia",
+      "Borneo",
+      "Madagascar"
+    ],
+    "options_dev": [
+      "ग्रीनलैंड",
+      "ऑस्ट्रेलिया",
+      "बोर्नियो",
+      "मेडागास्कर"
+    ],
+    "answer_index": 0,
+    "explanation": "Greenland सबसे बड़ा द्वीप (Australia महाद्वीप है)।",
+    "explanation_rom": "Greenland sabse bada dweep."
+  },
+  {
+    "id": "hi-101",
+    "category": "GEOGRAPHY",
+    "question": "'गोल्डन टेंपल' किस शहर में है?",
+    "question_rom": "'Golden Temple' kis shahar me hai?",
+    "options": [
+      "Amritsar",
+      "Ludhiana",
+      "Delhi",
+      "Chandigarh"
+    ],
+    "options_dev": [
+      "अमृतसर",
+      "लुधियाना",
+      "दिल्ली",
+      "चंडीगढ़"
+    ],
+    "answer_index": 0,
+    "explanation": "Golden Temple — Amritsar, Punjab.",
+    "explanation_rom": "Golden Temple — Amritsar."
+  },
+  {
+    "id": "hi-102",
+    "category": "GEOGRAPHY",
+    "question": "भारत-नेपाल border पर सबसे ऊँची चोटी?",
+    "question_rom": "Duniya ki sabse oonchi choti kaun si hai?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kanchenjunga",
+      "Makalu"
+    ],
+    "options_dev": [
+      "माउंट एवरेस्ट",
+      "के-२",
+      "कंचनजंगा",
+      "मकालू"
+    ],
+    "answer_index": 0,
+    "explanation": "Mount Everest — 8,849 m.",
+    "explanation_rom": "Mount Everest — 8,849 m."
+  },
+  {
+    "id": "hi-103",
+    "category": "GEOGRAPHY",
+    "question": "'गुलाबी शहर' किसे कहा जाता है?",
+    "question_rom": "'Gulabi shahar' kise kaha jaata hai?",
+    "options": [
+      "Jaipur",
+      "Udaipur",
+      "Jodhpur",
+      "Ajmer"
+    ],
+    "options_dev": [
+      "जयपुर",
+      "उदयपुर",
+      "जोधपुर",
+      "अजमेर"
+    ],
+    "answer_index": 0,
+    "explanation": "Jaipur — Pink City.",
+    "explanation_rom": "Jaipur — Pink City."
+  },
+  {
+    "id": "hi-104",
+    "category": "GEOGRAPHY",
+    "question": "भारत में सबसे ज़्यादा राज्यों से सटी boundary किस राज्य की है?",
+    "question_rom": "Bharat me sabse zyada rajyon se sati boundary kis rajya ki hai?",
+    "options": [
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "options_dev": [
+      "उत्तर प्रदेश",
+      "मध्य प्रदेश",
+      "महाराष्ट्र",
+      "बिहार"
+    ],
+    "answer_index": 0,
+    "explanation": "UP — 8 राज्यों + 1 UT से सटा है।",
+    "explanation_rom": "UP — 8 rajyon se sati hai."
+  },
+  {
+    "id": "hi-105",
+    "category": "GEOGRAPHY",
+    "question": "काजीरंगा नैशनल पार्क किस राज्य में है?",
+    "question_rom": "Kaziranga National Park kis rajya me hai?",
+    "options": [
+      "Assam",
+      "West Bengal",
+      "Madhya Pradesh",
+      "Uttarakhand"
+    ],
+    "options_dev": [
+      "असम",
+      "पश्चिम बंगाल",
+      "मध्य प्रदेश",
+      "उत्तराखंड"
+    ],
+    "answer_index": 0,
+    "explanation": "Kaziranga — Assam, एक सींग वाला गैंडा।",
+    "explanation_rom": "Kaziranga — Assam, one-horned rhino."
+  },
+  {
+    "id": "hi-106",
+    "category": "GEOGRAPHY",
+    "question": "दुनिया का सबसे बड़ा रेगिस्तान कौन सा है?",
+    "question_rom": "Duniya ka sabse bada registan kaun sa hai?",
+    "options": [
+      "Sahara",
+      "Thar",
+      "Gobi",
+      "Kalahari"
+    ],
+    "options_dev": [
+      "सहारा",
+      "थार",
+      "गोबी",
+      "कालाहारी"
+    ],
+    "answer_index": 0,
+    "explanation": "Sahara — अफ्रीका, सबसे बड़ा गर्म रेगिस्तान।",
+    "explanation_rom": "Sahara — Africa."
+  },
+  {
+    "id": "hi-107",
+    "category": "GEOGRAPHY",
+    "question": "'सिटी ऑफ लेक्स' किसे कहते हैं?",
+    "question_rom": "'City of Lakes' kise kehte hain?",
+    "options": [
+      "Udaipur",
+      "Bhopal",
+      "Srinagar",
+      "Nainital"
+    ],
+    "options_dev": [
+      "उदयपुर",
+      "भोपाल",
+      "श्रीनगर",
+      "नैनीताल"
+    ],
+    "answer_index": 0,
+    "explanation": "Udaipur — झीलों का शहर।",
+    "explanation_rom": "Udaipur — jheelon ka shahar."
+  },
+  {
+    "id": "hi-108",
+    "category": "GEOGRAPHY",
+    "question": "भारत की सबसे दक्षिणी tip कौन सी है?",
+    "question_rom": "Bharat ki sabse dakshini tip kaun si hai?",
+    "options": [
+      "Kanyakumari",
+      "Rameshwaram",
+      "Trivandrum",
+      "Pondicherry"
+    ],
+    "options_dev": [
+      "कन्याकुमारी",
+      "रामेश्वरम",
+      "त्रिवेंद्रम",
+      "पांडिचेरी"
+    ],
+    "answer_index": 0,
+    "explanation": "Kanyakumari — तीन समुद्रों का संगम।",
+    "explanation_rom": "Kanyakumari — teen samundron ka sangam."
+  },
+  {
+    "id": "hi-109",
+    "category": "GEOGRAPHY",
+    "question": "चेन्नई पहले किस नाम से जाना जाता था?",
+    "question_rom": "Chennai pehle kis naam se jaana jaata tha?",
+    "options": [
+      "Madras",
+      "Calicut",
+      "Trivandrum",
+      "Kochi"
+    ],
+    "options_dev": [
+      "मद्रास",
+      "कालीकट",
+      "त्रिवेंद्रम",
+      "कोच्चि"
+    ],
+    "answer_index": 0,
+    "explanation": "Madras → Chennai, 1996 में नाम बदला।",
+    "explanation_rom": "Madras → Chennai, 1996."
+  },
+  {
+    "id": "hi-110",
+    "category": "GEOGRAPHY",
+    "question": "दुनिया में सबसे ज़्यादा मूल निवासी देश कौन सा है?",
+    "question_rom": "Bharat ka sabse bada rajya area me kaun sa hai?",
+    "options": [
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "UP"
+    ],
+    "options_dev": [
+      "राजस्थान",
+      "मध्य प्रदेश",
+      "महाराष्ट्र",
+      "यूपी"
+    ],
+    "answer_index": 0,
+    "explanation": "Rajasthan — क्षेत्र में सबसे बड़ा राज्य।",
+    "explanation_rom": "Rajasthan — sabse bada rajya."
+  },
+  {
+    "id": "hi-111",
+    "category": "HISTORY",
+    "question": "ताजमहल किसने बनवाया था?",
+    "question_rom": "Taj Mahal kisne banwaya tha?",
+    "options": [
+      "Shah Jahan",
+      "Akbar",
+      "Aurangzeb",
+      "Humayun"
+    ],
+    "options_dev": [
+      "शाहजहां",
+      "अकबर",
+      "औरंगज़ेब",
+      "हुमायूं"
+    ],
+    "answer_index": 0,
+    "explanation": "Shah Jahan ने Mumtaz की याद में बनवाया।",
+    "explanation_rom": "Shah Jahan ne Mumtaz ki yaad me banwaya."
+  },
+  {
+    "id": "hi-112",
+    "category": "HISTORY",
+    "question": "'इंकलाब ज़िंदाबाद' का नारा किसने दिया?",
+    "question_rom": "'Inquilab Zindabad' ka naara kisne diya?",
+    "options": [
+      "Bhagat Singh",
+      "Azad",
+      "Subhash Bose",
+      "Nehru"
+    ],
+    "options_dev": [
+      "भगत सिंह",
+      "आज़ाद",
+      "सुभाष बोस",
+      "नेहरू"
+    ],
+    "answer_index": 0,
+    "explanation": "Bhagat Singh — 'Inquilab Zindabad'.",
+    "explanation_rom": "Bhagat Singh ka naara."
+  },
+  {
+    "id": "hi-113",
+    "category": "HISTORY",
+    "question": "India आज़ाद कब हुआ?",
+    "question_rom": "India azaad kab hua?",
+    "options": [
+      "15 Aug 1947",
+      "26 Jan 1950",
+      "15 Aug 1946",
+      "26 Jan 1947"
+    ],
+    "options_dev": [
+      "१५ अगस्त १९४७",
+      "२६ जन १९५०",
+      "१५ अगस्त १९४६",
+      "२६ जन १९४७"
+    ],
+    "answer_index": 0,
+    "explanation": "15 August 1947 — आज़ादी का दिन।",
+    "explanation_rom": "15 August 1947."
+  },
+  {
+    "id": "hi-114",
+    "category": "HISTORY",
+    "question": "'दांडी मार्च' किसके नेतृत्व में हुआ?",
+    "question_rom": "'Dandi March' kiske netritva me hua?",
+    "options": [
+      "Gandhi ji",
+      "Nehru",
+      "Patel",
+      "Bose"
+    ],
+    "options_dev": [
+      "गांधी जी",
+      "नेहरू",
+      "पटेल",
+      "बोस"
+    ],
+    "answer_index": 0,
+    "explanation": "Gandhi — 1930, नमक सत्याग्रह।",
+    "explanation_rom": "Gandhi — 1930 salt satyagraha."
+  },
+  {
+    "id": "hi-115",
+    "category": "HISTORY",
+    "question": "चाणक्य का असली नाम क्या था?",
+    "question_rom": "Chanakya ka asli naam kya tha?",
+    "options": [
+      "Vishnugupta/Kautilya",
+      "Patanjali",
+      "Panini",
+      "Aryabhata"
+    ],
+    "options_dev": [
+      "विष्णुगुप्त/कौटिल्य",
+      "पतंजलि",
+      "पाणिनी",
+      "आर्यभट"
+    ],
+    "answer_index": 0,
+    "explanation": "Chanakya = Kautilya/Vishnugupta — Maurya का मंत्री।",
+    "explanation_rom": "Chanakya = Kautilya."
+  },
+  {
+    "id": "hi-116",
+    "category": "HISTORY",
+    "question": "'जलियांवाला बाग नरसंहार' किस साल हुआ?",
+    "question_rom": "'Jallianwala Bagh nar-sanhar' kis saal hua?",
+    "options": [
+      "1919",
+      "1942",
+      "1930",
+      "1857"
+    ],
+    "options_dev": [
+      "१९१९",
+      "१९४२",
+      "१९३०",
+      "१८५७"
+    ],
+    "answer_index": 0,
+    "explanation": "13 April 1919 — Amritsar, General Dyer.",
+    "explanation_rom": "13 April 1919 — Amritsar."
+  },
+  {
+    "id": "hi-117",
+    "category": "HISTORY",
+    "question": "भारत का पहला राष्ट्रपति कौन था?",
+    "question_rom": "Bharat ka pehla Rashtrapati kaun tha?",
+    "options": [
+      "Dr. Rajendra Prasad",
+      "Dr. Radhakrishnan",
+      "Nehru",
+      "Patel"
+    ],
+    "options_dev": [
+      "डॉ. राजेंद्र प्रसाद",
+      "डॉ. राधाकृष्णन",
+      "नेहरू",
+      "पटेल"
+    ],
+    "answer_index": 0,
+    "explanation": "Dr. Rajendra Prasad — 1950-62.",
+    "explanation_rom": "Dr. Rajendra Prasad."
+  },
+  {
+    "id": "hi-118",
+    "category": "HISTORY",
+    "question": "'नेता जी' किसे कहते हैं?",
+    "question_rom": "'Netaji' kise kehte hain?",
+    "options": [
+      "Subhash Chandra Bose",
+      "Nehru",
+      "Patel",
+      "Bhagat Singh"
+    ],
+    "options_dev": [
+      "सुभाष चंद्र बोस",
+      "नेहरू",
+      "पटेल",
+      "भगत सिंह"
+    ],
+    "answer_index": 0,
+    "explanation": "Netaji Subhash Chandra Bose — INA के नेता।",
+    "explanation_rom": "Netaji — INA ke neta."
+  },
+  {
+    "id": "hi-119",
+    "category": "HISTORY",
+    "question": "अशोक का प्रसिद्ध स्तम्भ लेख किस भाषा में है?",
+    "question_rom": "Ashoka ke stambh-lekh kis lipi me likhe gaye?",
+    "options": [
+      "Brahmi",
+      "Devanagari",
+      "Sanskrit",
+      "Prakrit"
+    ],
+    "options_dev": [
+      "ब्राह्मी",
+      "देवनागरी",
+      "संस्कृत",
+      "प्राकृत"
+    ],
+    "answer_index": 0,
+    "explanation": "Ashok के शिलालेख ब्राह्मी लिपि में हैं।",
+    "explanation_rom": "Ashok ke shilalekh Brahmi lipi me."
+  },
+  {
+    "id": "hi-120",
+    "category": "HISTORY",
+    "question": "सम्राट अशोक किस वंश के थे?",
+    "question_rom": "Samrat Ashok kis vansh ke the?",
+    "options": [
+      "Maurya",
+      "Gupta",
+      "Chola",
+      "Mughal"
+    ],
+    "options_dev": [
+      "मौर्य",
+      "गुप्त",
+      "चोल",
+      "मुग़ल"
+    ],
+    "answer_index": 0,
+    "explanation": "Maurya vansh — Chandragupta Maurya का पोता।",
+    "explanation_rom": "Maurya vansh."
+  },
+  {
+    "id": "hi-121",
+    "category": "HISTORY",
+    "question": "1857 की क्रांति का नेतृत्व झाँसी में किसने किया?",
+    "question_rom": "1857 ki kranti ka netritva Jhansi me kisne kiya?",
+    "options": [
+      "Rani Laxmibai",
+      "Mangal Pandey",
+      "Tatya Tope",
+      "Nana Saheb"
+    ],
+    "options_dev": [
+      "रानी लक्ष्मीबाई",
+      "मंगल पांडे",
+      "तात्या टोपे",
+      "नाना साहेब"
+    ],
+    "answer_index": 0,
+    "explanation": "झाँसी की रानी — Laxmibai.",
+    "explanation_rom": "Rani Laxmibai."
+  },
+  {
+    "id": "hi-122",
+    "category": "HISTORY",
+    "question": "'हिंदुस्तानी सोशलिस्ट रिपब्लिकन एसोसिएशन' (HSRA) किसने बनाई?",
+    "question_rom": "HSRA kisne banayi?",
+    "options": [
+      "Bhagat Singh aur Chandrashekhar Azad",
+      "Bose",
+      "Gandhi",
+      "Nehru"
+    ],
+    "options_dev": [
+      "भगत सिंह और आज़ाद",
+      "बोस",
+      "गांधी",
+      "नेहरू"
+    ],
+    "answer_index": 0,
+    "explanation": "Bhagat Singh + Chandrashekhar Azad — 1928.",
+    "explanation_rom": "Bhagat Singh + Azad — 1928."
+  },
+  {
+    "id": "hi-123",
+    "category": "HISTORY",
+    "question": "'पोरबंदर' किस महान नेता का जन्मस्थान है?",
+    "question_rom": "'Porbandar' kis mahan neta ka janmasthan hai?",
+    "options": [
+      "Gandhi ji",
+      "Sardar Patel",
+      "Jawaharlal Nehru",
+      "Subhash Bose"
+    ],
+    "options_dev": [
+      "गांधी जी",
+      "सरदार पटेल",
+      "नेहरू",
+      "बोस"
+    ],
+    "answer_index": 0,
+    "explanation": "Gandhi ji का जन्म Porbandar, Gujarat में हुआ।",
+    "explanation_rom": "Gandhi ka janm Porbandar me."
+  },
+  {
+    "id": "hi-124",
+    "category": "HISTORY",
+    "question": "Quit India Movement किस साल शुरू हुआ?",
+    "question_rom": "Quit India Movement kis saal shuru hua?",
+    "options": [
+      "1942",
+      "1930",
+      "1947",
+      "1920"
+    ],
+    "options_dev": [
+      "१९४२",
+      "१९३०",
+      "१९४७",
+      "१९२०"
+    ],
+    "answer_index": 0,
+    "explanation": "1942 — Gandhi का 'Do or Die'.",
+    "explanation_rom": "1942 — 'Do or Die'."
+  },
+  {
+    "id": "hi-125",
+    "category": "HISTORY",
+    "question": "हमायूं का मकबरा कहां है?",
+    "question_rom": "Humayun ka maqbara kahan hai?",
+    "options": [
+      "Delhi",
+      "Agra",
+      "Lahore",
+      "Fatehpur Sikri"
+    ],
+    "options_dev": [
+      "दिल्ली",
+      "आगरा",
+      "लाहौर",
+      "फतेहपुर सीकरी"
+    ],
+    "answer_index": 0,
+    "explanation": "Humayun का मकबरा — Delhi में।",
+    "explanation_rom": "Humayun ka maqbara — Delhi."
+  },
+  {
+    "id": "hi-126",
+    "category": "CIVICS",
+    "question": "लोकसभा में कितनी सीटें होती हैं?",
+    "question_rom": "Lok Sabha me kitni seats hoti hain?",
+    "options": [
+      "543",
+      "545",
+      "552",
+      "250"
+    ],
+    "options_dev": [
+      "५४३",
+      "५४५",
+      "५५२",
+      "२५०"
+    ],
+    "answer_index": 0,
+    "explanation": "Lok Sabha — 543 elected members.",
+    "explanation_rom": "Lok Sabha — 543 members."
+  },
+  {
+    "id": "hi-127",
+    "category": "CIVICS",
+    "question": "राज्यसभा का member कितने साल के लिए चुना जाता है?",
+    "question_rom": "Rajya Sabha ka member kitne saal ke liye chuna jaata hai?",
+    "options": [
+      "6 saal",
+      "5 saal",
+      "4 saal",
+      "Lifetime"
+    ],
+    "options_dev": [
+      "६ साल",
+      "५ साल",
+      "४ साल",
+      "आजीवन"
+    ],
+    "answer_index": 0,
+    "explanation": "Rajya Sabha — 6 saal, हर 2 साल में 1/3 retire.",
+    "explanation_rom": "Rajya Sabha — 6 saal."
+  },
+  {
+    "id": "hi-128",
+    "category": "CIVICS",
+    "question": "भारत का राष्ट्रीय गान 'जन गण मन' किसने लिखा?",
+    "question_rom": "Bharat ka rashtriya gaan 'Jan Gan Man' kisne likha?",
+    "options": [
+      "Rabindranath Tagore",
+      "Bankim Chandra",
+      "Sarojini Naidu",
+      "Subhash Bose"
+    ],
+    "options_dev": [
+      "रवींद्रनाथ टैगोर",
+      "बंकिम चंद्र",
+      "सरोजिनी नायडू",
+      "सुभाष बोस"
+    ],
+    "answer_index": 0,
+    "explanation": "Rabindranath Tagore ने लिखा।",
+    "explanation_rom": "Tagore ne likha."
+  },
+  {
+    "id": "hi-129",
+    "category": "CIVICS",
+    "question": "'वंदे मातरम्' किसने लिखा?",
+    "question_rom": "'Vande Mataram' kisne likha?",
+    "options": [
+      "Bankim Chandra Chatterjee",
+      "Tagore",
+      "Bose",
+      "Tilak"
+    ],
+    "options_dev": [
+      "बंकिम चंद्र चट्टोपाध्याय",
+      "टैगोर",
+      "बोस",
+      "तिलक"
+    ],
+    "answer_index": 0,
+    "explanation": "Bankim Chandra — 'Anandamath' से।",
+    "explanation_rom": "Bankim Chandra — Anandamath se."
+  },
+  {
+    "id": "hi-130",
+    "category": "CIVICS",
+    "question": "भारत का सर्वोच्च न्यायालय कहां है?",
+    "question_rom": "Bharat ka sarvochch nyayalaya kahan hai?",
+    "options": [
+      "New Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "options_dev": [
+      "नई दिल्ली",
+      "मुंबई",
+      "कोलकाता",
+      "चेन्नई"
+    ],
+    "answer_index": 0,
+    "explanation": "Supreme Court — New Delhi.",
+    "explanation_rom": "Supreme Court — New Delhi."
+  },
+  {
+    "id": "hi-131",
+    "category": "CIVICS",
+    "question": "भारतीय संविधान में कितनी मूलभूत भाषाएँ मान्यता प्राप्त हैं?",
+    "question_rom": "Bharatiya Sanvidhan me kitni bhashayein maanyata praapt hain?",
+    "options": [
+      "22",
+      "15",
+      "18",
+      "25"
+    ],
+    "options_dev": [
+      "२२",
+      "१५",
+      "१८",
+      "२५"
+    ],
+    "answer_index": 0,
+    "explanation": "8वीं अनुसूची में 22 scheduled languages.",
+    "explanation_rom": "8vi anusuchi me 22 languages."
+  },
+  {
+    "id": "hi-132",
+    "category": "CIVICS",
+    "question": "भारत का निर्वाचन आयोग (Election Commission) किस article में है?",
+    "question_rom": "Bharat ka Election Commission kis article me hai?",
+    "options": [
+      "Article 324",
+      "Article 356",
+      "Article 370",
+      "Article 21"
+    ],
+    "options_dev": [
+      "अनुच्छेद ३२४",
+      "अनुच्छेद ३५६",
+      "अनुच्छेद ३७०",
+      "अनुच्छेद २१"
+    ],
+    "answer_index": 0,
+    "explanation": "Article 324 — Election Commission का गठन।",
+    "explanation_rom": "Article 324 — ECI."
+  },
+  {
+    "id": "hi-133",
+    "category": "CIVICS",
+    "question": "भारत का राष्ट्रीय पशु कौन सा है?",
+    "question_rom": "Bharat ka rashtriya pashu kaun sa hai?",
+    "options": [
+      "Tiger",
+      "Lion",
+      "Elephant",
+      "Leopard"
+    ],
+    "options_dev": [
+      "बाघ",
+      "शेर",
+      "हाथी",
+      "तेंदुआ"
+    ],
+    "answer_index": 0,
+    "explanation": "Bengal Tiger — rashtriya pashu.",
+    "explanation_rom": "Bengal Tiger."
+  },
+  {
+    "id": "hi-134",
+    "category": "CIVICS",
+    "question": "राष्ट्रपति का कार्यकाल कितने साल का होता है?",
+    "question_rom": "Rashtrapati ka karyakaal kitne saal ka hota hai?",
+    "options": [
+      "5 saal",
+      "6 saal",
+      "4 saal",
+      "3 saal"
+    ],
+    "options_dev": [
+      "५ साल",
+      "६ साल",
+      "४ साल",
+      "३ साल"
+    ],
+    "answer_index": 0,
+    "explanation": "President — 5 saal.",
+    "explanation_rom": "President — 5 saal."
+  },
+  {
+    "id": "hi-135",
+    "category": "CIVICS",
+    "question": "भारत में voting की minimum age क्या है?",
+    "question_rom": "Bharat me voting ki minimum age kya hai?",
+    "options": [
+      "18 saal",
+      "21 saal",
+      "25 saal",
+      "16 saal"
+    ],
+    "options_dev": [
+      "१८ साल",
+      "२१ साल",
+      "२५ साल",
+      "१६ साल"
+    ],
+    "answer_index": 0,
+    "explanation": "18 saal — 61वां संशोधन (1988) से।",
+    "explanation_rom": "18 saal."
+  },
+  {
+    "id": "hi-136",
+    "category": "G.K",
+    "question": "'फ़िल्मफ़ेयर अवॉर्ड' कब से शुरू हुए?",
+    "question_rom": "'Filmfare Award' kab se shuru hue?",
+    "options": [
+      "1954",
+      "1960",
+      "1947",
+      "1970"
+    ],
+    "options_dev": [
+      "१९५४",
+      "१९६०",
+      "१९४७",
+      "१९७०"
+    ],
+    "answer_index": 0,
+    "explanation": "Filmfare — 1954 से Bollywood के oldest awards.",
+    "explanation_rom": "Filmfare — 1954 se."
+  },
+  {
+    "id": "hi-137",
+    "category": "G.K",
+    "question": "भारत में पहला TV channel कौन सा था?",
+    "question_rom": "Bharat me pehla TV channel kaun sa tha?",
+    "options": [
+      "Doordarshan",
+      "Star Plus",
+      "Zee TV",
+      "Sony"
+    ],
+    "options_dev": [
+      "दूरदर्शन",
+      "स्टार प्लस",
+      "ज़ी टीवी",
+      "सोनी"
+    ],
+    "answer_index": 0,
+    "explanation": "Doordarshan — 1959 से।",
+    "explanation_rom": "Doordarshan — 1959."
+  },
+  {
+    "id": "hi-138",
+    "category": "G.K",
+    "question": "'अमूल' का headquarters कहां है?",
+    "question_rom": "'Amul' ka headquarters kahan hai?",
+    "options": [
+      "Anand, Gujarat",
+      "Mumbai",
+      "Delhi",
+      "Jaipur"
+    ],
+    "options_dev": [
+      "आणंद, गुजरात",
+      "मुंबई",
+      "दिल्ली",
+      "जयपुर"
+    ],
+    "answer_index": 0,
+    "explanation": "Amul — Anand, Gujarat (Dr. Kurien).",
+    "explanation_rom": "Amul — Anand, Gujarat."
+  },
+  {
+    "id": "hi-139",
+    "category": "G.K",
+    "question": "भारत में सबसे पहली metro किस शहर में चली?",
+    "question_rom": "Bharat me sabse pehli metro kis shahar me chali?",
+    "options": [
+      "Kolkata",
+      "Delhi",
+      "Mumbai",
+      "Chennai"
+    ],
+    "options_dev": [
+      "कोलकाता",
+      "दिल्ली",
+      "मुंबई",
+      "चेन्नई"
+    ],
+    "answer_index": 0,
+    "explanation": "Kolkata Metro — 1984, India की पहली metro.",
+    "explanation_rom": "Kolkata Metro — 1984."
+  },
+  {
+    "id": "hi-140",
+    "category": "G.K",
+    "question": "भारत का राष्ट्रीय फल कौन सा है?",
+    "question_rom": "Bharat ka rashtriya phal kaun sa hai?",
+    "options": [
+      "Aam",
+      "Kela",
+      "Sev",
+      "Santra"
+    ],
+    "options_dev": [
+      "आम",
+      "केला",
+      "सेब",
+      "संतरा"
+    ],
+    "answer_index": 0,
+    "explanation": "आम — mango, rashtriya phal.",
+    "explanation_rom": "Aam — mango."
+  },
+  {
+    "id": "hi-141",
+    "category": "G.K",
+    "question": "Air India का mascot 'महाराजा' किसने design किया?",
+    "question_rom": "'Incredible India' slogan kis ministry ka hai?",
+    "options": [
+      "Tourism Ministry",
+      "External Affairs",
+      "Culture Ministry",
+      "IT Ministry"
+    ],
+    "options_dev": [
+      "पर्यटन मंत्रालय",
+      "विदेश मंत्रालय",
+      "संस्कृति मंत्रालय",
+      "आईटी मंत्रालय"
+    ],
+    "answer_index": 0,
+    "explanation": "Incredible India — Tourism Ministry का campaign.",
+    "explanation_rom": "Incredible India — Tourism Ministry."
+  },
+  {
+    "id": "hi-142",
+    "category": "G.K",
+    "question": "'छोटा भीम' cartoon किस TV channel पर आता था?",
+    "question_rom": "'Chhota Bheem' cartoon kis TV channel par aata tha?",
+    "options": [
+      "Pogo",
+      "Cartoon Network",
+      "Nickelodeon",
+      "Disney"
+    ],
+    "options_dev": [
+      "पोगो",
+      "कार्टून नेटवर्क",
+      "निकेलोडियन",
+      "डिज़नी"
+    ],
+    "answer_index": 0,
+    "explanation": "Chhota Bheem — Pogo पर।",
+    "explanation_rom": "Chhota Bheem — Pogo par."
+  },
+  {
+    "id": "hi-143",
+    "category": "G.K",
+    "question": "बॉलीवुड में 'बिग B' किसे कहते हैं?",
+    "question_rom": "Bollywood me 'Big B' kise kehte hain?",
+    "options": [
+      "Amitabh Bachchan",
+      "Aamir Khan",
+      "Akshay Kumar",
+      "Anil Kapoor"
+    ],
+    "options_dev": [
+      "अमिताभ बच्चन",
+      "आमिर ख़ान",
+      "अक्षय कुमार",
+      "अनिल कपूर"
+    ],
+    "answer_index": 0,
+    "explanation": "Big B = Amitabh Bachchan.",
+    "explanation_rom": "Big B = Amitabh."
+  },
+  {
+    "id": "hi-144",
+    "category": "G.K",
+    "question": "'सिंघम', 'सिम्बा', 'सूर्यवंशी' — ये किस director की cop universe मूवीज़ हैं?",
+    "question_rom": "'Singham', 'Simmba', 'Sooryavanshi' — yeh kis director ki cop universe movies hain?",
+    "options": [
+      "Rohit Shetty",
+      "Sanjay Leela Bhansali",
+      "Karan Johar",
+      "Prashanth Neel"
+    ],
+    "options_dev": [
+      "रोहित शेट्टी",
+      "संजय लीला भंसाली",
+      "करन जौहर",
+      "प्रशांत नील"
+    ],
+    "answer_index": 0,
+    "explanation": "Rohit Shetty का cop universe.",
+    "explanation_rom": "Rohit Shetty ka cop universe."
+  },
+  {
+    "id": "hi-145",
+    "category": "G.K",
+    "question": "'फ़्राइडे' का नाम किस देवता से जुड़ा है Norse मिथ में?",
+    "question_rom": "India ka rashtriya jhanda (tiranga) kisne design kiya?",
+    "options": [
+      "Pingali Venkayya",
+      "Gandhi",
+      "Nehru",
+      "Patel"
+    ],
+    "options_dev": [
+      "पिंगली वेंकैया",
+      "गांधी",
+      "नेहरू",
+      "पटेल"
+    ],
+    "answer_index": 0,
+    "explanation": "Pingali Venkayya ने tiranga design किया।",
+    "explanation_rom": "Pingali Venkayya."
+  },
+  {
+    "id": "hi-146",
+    "category": "G.K",
+    "question": "Lata Mangeshkar को किस उपाधि से जाना जाता था?",
+    "question_rom": "Lata Mangeshkar ko kis upadhi se jaana jaata tha?",
+    "options": [
+      "Nightingale of India",
+      "Melody Queen",
+      "Swar Kokila",
+      "In sab me"
+    ],
+    "options_dev": [
+      "नाइटिंगेल ऑफ इंडिया",
+      "मेलोडी क्वीन",
+      "स्वर कोकिला",
+      "इन सब में"
+    ],
+    "answer_index": 3,
+    "explanation": "Lata ji = Nightingale, Melody Queen, Swar Kokila — सब कुछ।",
+    "explanation_rom": "Lata ji — sab titles."
+  },
+  {
+    "id": "hi-147",
+    "category": "G.K",
+    "question": "भारत का सबसे पहला IIT कहां बना?",
+    "question_rom": "Bharat ka sabse pehla IIT kahan bana?",
+    "options": [
+      "IIT Kharagpur",
+      "IIT Delhi",
+      "IIT Bombay",
+      "IIT Madras"
+    ],
+    "options_dev": [
+      "आईआईटी खड़गपुर",
+      "आईआईटी दिल्ली",
+      "आईआईटी बॉम्बे",
+      "आईआईटी मद्रास"
+    ],
+    "answer_index": 0,
+    "explanation": "IIT Kharagpur — 1951.",
+    "explanation_rom": "IIT Kharagpur — 1951."
+  },
+  {
+    "id": "hi-148",
+    "category": "G.K",
+    "question": "India में सबसे ज़्यादा follow किया जाने वाला religion कौन सा है?",
+    "question_rom": "Bharat me sabse zyada population kis state ki hai?",
+    "options": [
+      "Uttar Pradesh",
+      "Bihar",
+      "Maharashtra",
+      "West Bengal"
+    ],
+    "options_dev": [
+      "उत्तर प्रदेश",
+      "बिहार",
+      "महाराष्ट्र",
+      "पश्चिम बंगाल"
+    ],
+    "answer_index": 0,
+    "explanation": "UP — सबसे ज़्यादा आबादी वाला राज्य।",
+    "explanation_rom": "UP — sabse zyada aabadi."
+  },
+  {
+    "id": "hi-149",
+    "category": "G.K",
+    "question": "'नोटबंदी' (Demonetization) India में कब हुई?",
+    "question_rom": "'Notebandi' (Demonetization) India me kab hui?",
+    "options": [
+      "Nov 2016",
+      "Nov 2015",
+      "Dec 2016",
+      "Jan 2017"
+    ],
+    "options_dev": [
+      "नवंबर २०१६",
+      "नवंबर २०१५",
+      "दिसंबर २०१६",
+      "जनवरी २०१७"
+    ],
+    "answer_index": 0,
+    "explanation": "8 November 2016 — ₹500/₹1000 notes ban.",
+    "explanation_rom": "8 Nov 2016."
+  },
+  {
+    "id": "hi-150",
+    "category": "G.K",
+    "question": "भारत का राष्ट्रीय खेल क्या माना जाता है (ऑफिशियली कोई नहीं है)?",
+    "question_rom": "Bharat me sabse famous sport jo sabko lagta hai national hai, woh kya hai?",
+    "options": [
+      "Hockey",
+      "Cricket",
+      "Kabaddi",
+      "Football"
+    ],
+    "options_dev": [
+      "हॉकी",
+      "क्रिकेट",
+      "कबड्डी",
+      "फुटबॉल"
+    ],
+    "answer_index": 0,
+    "explanation": "सबको लगता है Hockey — पर भारत का कोई ऑफिशियल national sport नहीं!",
+    "explanation_rom": "Trick Q: koi official national sport nahi, lekin Hockey sabko lagta hai."
   }
 ]
