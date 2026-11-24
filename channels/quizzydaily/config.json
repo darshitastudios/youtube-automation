@@ -4,6 +4,20 @@
   "voice": "en-US-ChristopherNeural",
   "quizzes": "content/quizzes.json",
   "db": "automation.db",
-  "title_fmt": "{category} Quiz: Can You Solve This? #shorts",
+  "hooks": [
+    "ONLY 1% GET THIS RIGHT",
+    "99% FAIL THIS RIDDLE",
+    "GENIUSES GET THIS INSTANTLY",
+    "CAN YOU SOLVE THIS IN 10 SECONDS?",
+    "MOST PEOPLE GET THIS WRONG",
+    "PROVE YOU'RE SMARTER THAN 95%"
+  ],
+  "title_fmts": [
+    "{category} Quiz: 99% Fail This #shorts",
+    "{category} Quiz: Can You Solve This? #shorts",
+    "{category} Riddle Only 1% Get Right #shorts",
+    "{category} Quiz: Prove You're A Genius #shorts",
+    "{category} Quiz: Most People Get This Wrong #shorts"
+  ],
   "tags": ["quiz", "riddle", "trivia", "brain teaser", "shorts"]
 }

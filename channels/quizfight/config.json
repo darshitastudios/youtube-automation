@@ -5,8 +5,21 @@
   "font_body": "Mukta-Bold.ttf",
   "quizzes": "content/quizzes.json",
   "db": "automation.db",
-  "hook_text": "SIRF 1% ISKA JAWAAB DE PAATE HAI",
+  "hooks": [
+    "SIRF 1% ISKA JAWAAB DE PAATE HAI",
+    "99% LOG ISME FAIL HOTE HAI",
+    "GENIUS HO TO 10 SECOND ME BATAO",
+    "KAR SAKTE HO? SIRF TOPPERS NE KIYA",
+    "ZYADA TAR LOG YEH GALAT KARTE HAI",
+    "DIMAAG HO TO JAWAAB DO"
+  ],
+  "title_fmts": [
+    "{category} Quiz: Sirf 1% Kar Paaye #shorts",
+    "{category} Quiz: Kar Sakte Ho? #shorts",
+    "{category} Paheli: 99% Fail #shorts",
+    "{category} Quiz: Genius Ho To Banao #shorts",
+    "{category} Quiz: Zyada Tar Galat Karte Hai #shorts"
+  ],
   "cta_text": "Comment me apna time batao, aur subscribe karo daily quiz ke liye!",
-  "title_fmt": "{category} Quiz: Kar Sakte Ho? #shorts",
   "tags": ["quiz", "hindi quiz", "paheli", "gk", "trivia", "shorts"]
 }
