@@ -86,8 +86,16 @@ def upload(video_path, title, description, tags, made_for_kids=False, publish_at
         with urllib.request.urlopen(req) as r:
             resp = json.loads(r.read())  # contains "id"
     if thumbnail_path and resp.get("id"):
-        try:
-            set_thumbnail(token, resp["id"], thumbnail_path)
-        except Exception as e:
-            print(f"thumbnail upload failed (non-fatal): {e}")
+        # YouTube 403s thumbnails.set while the video is still processing —
+        # retry with backoff before giving up (non-fatal either way).
+        import time
+        for attempt in range(5):
+            try:
+                set_thumbnail(token, resp["id"], thumbnail_path)
+                break
+            except Exception as e:
+                if attempt == 4:
+                    print(f"thumbnail upload failed (non-fatal): {e}")
+                else:
+                    time.sleep(20 * (attempt + 1))
     return resp
